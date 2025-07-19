@@ -1,0 +1,141 @@
+openapi: 3.1.0
+info:
+  title: AllDev GPT Assistant
+  description: |
+    GPT autônomo que gera funcionalidades completas com código, banco, testes, CI/CD e deploy via SSH, com monitoramento e controle de dependências.
+  version: 1.0.0
+servers:
+  - url: https://fmunizm.github.io/alldev
+    description: Base pública dos arquivos para a Action do GPT
+
+paths:
+  /session/context:
+    post:
+      operationId: setSessionContext
+      summary: Armazena as configurações da sessão do usuário (repositório, servidor, banco)
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [repo, branch, server, database]
+              properties:
+                repo:
+                  type: string
+                branch:
+                  type: string
+                server:
+                  type: object
+                  properties:
+                    host: { type: string }
+                    user: { type: string }
+                    port: { type: string }
+                    password: { type: string }
+                database:
+                  type: object
+                  properties:
+                    host: { type: string }
+                    port: { type: string }
+                    user: { type: string }
+                    password: { type: string }
+                    name: { type: string }
+      responses:
+        '200':
+          description: Contexto armazenado com sucesso
+
+  /deploy:
+    post:
+      operationId: triggerDeploy
+      summary: Executa deploy da aplicação via SSH
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [repo, branch]
+              properties:
+                repo:
+                  type: string
+                branch:
+                  type: string
+      responses:
+        '200':
+          description: Deploy concluído
+
+  /test/run:
+    post:
+      operationId: runTests
+      summary: Executa os testes automatizados (Jest, Playwright, etc.)
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [repo, branch]
+              properties:
+                repo:
+                  type: string
+                branch:
+                  type: string
+      responses:
+        '200':
+          description: Resultado dos testes
+
+  /monitoring/install:
+    post:
+      operationId: setupMonitoring
+      summary: Instala logtail ou monitoramento via shell scripts
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [project, server, logtailToken]
+              properties:
+                project:
+                  type: string
+                server:
+                  type: object
+                  properties:
+                    host: { type: string }
+                    user: { type: string }
+                    password: { type: string }
+                    port: { type: string }
+                logtailToken:
+                  type: string
+      responses:
+        '200':
+          description: Monitoramento configurado com sucesso
+
+  /ci/setup:
+    post:
+      operationId: setupCI
+      summary: Cria GitHub Actions e secrets no repositório do usuário
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [repo, secrets]
+              properties:
+                repo:
+                  type: string
+                secrets:
+                  type: object
+                  required: [VPS_HOST, VPS_USER, VPS_PASSWORD, PROJECT_NAME, VPS_PORT]
+      responses:
+        '200':
+          description: CI/CD configurado com sucesso
+
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: GitHub PAT
+  schemas: {}

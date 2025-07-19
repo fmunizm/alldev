@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bem-vindo ao AllDev GPT</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: 40px auto;
+      line-height: 1.6;
+      color: #333;
+      padding: 0 20px;
+    }
+    h1, h2 {
+      color: #0053a0;
+    }
+    code {
+      background: #f4f4f4;
+      padding: 2px 6px;
+      border-radius: 4px;
+    }
+    .box {
+      background: #f9f9f9;
+      border-left: 4px solid #0053a0;
+      padding: 16px;
+      margin: 20px 0;
+    }
+    ul {
+      padding-left: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>👋 Bem-vindo ao AllDev GPT</h1>
+  <p>Este assistente GPT é capaz de gerar funcionalidades completas para seus sistemas, fazer deploy em VPS, executar testes e monitorar sua aplicação com base apenas em comandos em linguagem natural.</p>
+
+  <h2>🚀 Como usar</h2>
+  <ol>
+    <li>Acesse <strong><a href="https://chat.openai.com/gpts/editor" target="_blank">chat.openai.com/gpts/editor</a></strong> e importe a action com a URL abaixo:</li>
+    <div class="box">
+      <code>https://fmunizm.github.io/alldev/openapi.yaml</code>
+    </div>
+    <li>Informe a <strong>URL do repositório GitHub</strong> onde deseja que o GPT atue.</li>
+    <li>Forneça seu <strong>token pessoal do GitHub (PAT)</strong> com os seguintes escopos:
+      <code>repo</code>, <code>workflow</code>, <code>user</code>. Certifique-se de copiar e colar o token quando solicitado pelo assistente.
+    </li>
+    <li>Pronto! Você pode agora pedir, por exemplo:
+      <ul>
+        <li>“Crie um sistema de login com Google”</li>
+        <li>“Adicione campo CPF no cadastro de cliente”</li>
+        <li>“Rode os testes automatizados”</li>
+        <li>“Faça deploy na minha VPS”</li>
+      </ul>
+    </li>
+  </ol>
+
+  <h2>🛡️ Segurança</h2>
+  <p>O token fornecido nunca é salvo fora da sua sessão. Você pode revogá-lo a qualquer momento em 
+    <a href="https://github.com/settings/tokens" target="_blank">github.com/settings/tokens</a>.
+  </p>
+
+  <h2>🔧 Repositório base da action</h2>
+  <p>Os arquivos que alimentam o GPT (OpenAPI, scripts e exemplos) estão neste repositório:</p>
+  <div class="box">
+    <a href="https://github.com/fmunizm/alldev" target="_blank">https://github.com/fmunizm/alldev</a>
+  </div>
+</body>
+</html>

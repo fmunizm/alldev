@@ -1,0 +1,18 @@
+{
+  "name": "AllDev GPT",
+  "description": "GPT Dev Fullstack que cria funcionalidades, comita, testa, publica via SSH e monitora automaticamente com base em comandos em linguagem natural.",
+  "instructions": "Para começar, forneça a URL do seu repositório GitHub. O GPT criará funcionalidades, PRs, testes, deploys e setups de VPS. Requer token do GitHub para autenticação.",
+  "version": "1.0.0",
+  "contact_email": "seu-email@dominio.com",
+  "legal_info_url": "https://github.com/fmunizm/alldev",
+  "api": {
+    "type": "openapi",
+    "url": "https://fmunizm.github.io/alldev/openapi.yaml",
+    "auth": {
+      "type": "api_key",
+      "authorizationUrl": "",
+      "instructions": "Cole aqui seu token do GitHub com escopos repo, workflow, user"
+    }
+  },
+  "logo_url": "https://fmunizm.github.io/alldev/logo.png"
+}
