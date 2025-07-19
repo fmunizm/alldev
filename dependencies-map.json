@@ -1,0 +1,28 @@
+{
+  "clientes": {
+    "routes": [
+      "src/routes/clientes.ts"
+    ],
+    "components": [
+      "src/components/CadastroCliente.tsx"
+    ],
+    "tests": [
+      "tests/backend/exemplo.test.ts",
+      "tests/frontend/exemplo.test.tsx"
+    ],
+    "database": [
+      "prisma/schema.prisma"
+    ]
+  },
+  "auth/google": {
+    "routes": [
+      "src/routes/auth/google.ts"
+    ],
+    "components": [
+      "src/components/LoginGoogle.tsx"
+    ],
+    "tests": [
+      "tests/backend/auth-google.test.ts"
+    ]
+  }
+}
