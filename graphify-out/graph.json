@@ -1,0 +1,130 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "exemplo.spec.ts",
+      "file_type": "code",
+      "source_file": "tests/e2e/exemplo.spec.ts",
+      "source_location": "L1",
+      "id": "tests_e2e_exemplo_spec_ts",
+      "community": 2,
+      "norm_label": "exemplo.spec.ts"
+    },
+    {
+      "label": "exemplo.test.ts",
+      "file_type": "code",
+      "source_file": "tests/backend/exemplo.test.ts",
+      "source_location": "L1",
+      "id": "tests_backend_exemplo_test_ts",
+      "community": 3,
+      "norm_label": "exemplo.test.ts"
+    },
+    {
+      "label": "exemplo.test.tsx",
+      "file_type": "code",
+      "source_file": "tests/frontend/exemplo.test.tsx",
+      "source_location": "L1",
+      "id": "tests_frontend_exemplo_test_tsx",
+      "community": 4,
+      "norm_label": "exemplo.test.tsx"
+    },
+    {
+      "label": "backend.ts",
+      "file_type": "code",
+      "source_file": "templates/login-google/backend.ts",
+      "source_location": "L1",
+      "id": "templates_login_google_backend_ts",
+      "community": 5,
+      "norm_label": "backend.ts"
+    },
+    {
+      "label": "test.spec.ts",
+      "file_type": "code",
+      "source_file": "templates/login-google/test.spec.ts",
+      "source_location": "L1",
+      "id": "templates_login_google_test_spec_ts",
+      "community": 6,
+      "norm_label": "test.spec.ts"
+    },
+    {
+      "label": "frontend.tsx",
+      "file_type": "code",
+      "source_file": "templates/login-google/frontend.tsx",
+      "source_location": "L1",
+      "id": "templates_login_google_frontend_tsx",
+      "community": 1,
+      "norm_label": "frontend.tsx"
+    },
+    {
+      "label": "LoginGoogle()",
+      "file_type": "code",
+      "source_file": "templates/login-google/frontend.tsx",
+      "source_location": "L3",
+      "id": "login_google_frontend_logingoogle",
+      "community": 1,
+      "norm_label": "logingoogle()"
+    },
+    {
+      "label": "backend.ts",
+      "file_type": "code",
+      "source_file": "templates/cadastro-clientes/backend.ts",
+      "source_location": "L1",
+      "id": "templates_cadastro_clientes_backend_ts",
+      "community": 7,
+      "norm_label": "backend.ts"
+    },
+    {
+      "label": "test.spec.ts",
+      "file_type": "code",
+      "source_file": "templates/cadastro-clientes/test.spec.ts",
+      "source_location": "L1",
+      "id": "templates_cadastro_clientes_test_spec_ts",
+      "community": 8,
+      "norm_label": "test.spec.ts"
+    },
+    {
+      "label": "frontend.tsx",
+      "file_type": "code",
+      "source_file": "templates/cadastro-clientes/frontend.tsx",
+      "source_location": "L1",
+      "id": "templates_cadastro_clientes_frontend_tsx",
+      "community": 0,
+      "norm_label": "frontend.tsx"
+    },
+    {
+      "label": "CadastroCliente()",
+      "file_type": "code",
+      "source_file": "templates/cadastro-clientes/frontend.tsx",
+      "source_location": "L3",
+      "id": "cadastro_clientes_frontend_cadastrocliente",
+      "community": 0,
+      "norm_label": "cadastrocliente()"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/login-google/frontend.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "templates_login_google_frontend_tsx",
+      "target": "login_google_frontend_logingoogle",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/cadastro-clientes/frontend.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "templates_cadastro_clientes_frontend_tsx",
+      "target": "cadastro_clientes_frontend_cadastrocliente",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "66997637401f4ff9a201bf4f10bb24af02e37b64"
+}
