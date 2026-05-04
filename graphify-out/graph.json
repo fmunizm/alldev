@@ -110,9 +110,9 @@
       "source_file": "templates/login-google/frontend.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_login_google_frontend_tsx",
-      "target": "login_google_frontend_logingoogle",
-      "confidence_score": 1.0
+      "target": "login_google_frontend_logingoogle"
     },
     {
       "relation": "contains",
@@ -120,11 +120,11 @@
       "source_file": "templates/cadastro-clientes/frontend.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_cadastro_clientes_frontend_tsx",
-      "target": "cadastro_clientes_frontend_cadastrocliente",
-      "confidence_score": 1.0
+      "target": "cadastro_clientes_frontend_cadastrocliente"
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "66997637401f4ff9a201bf4f10bb24af02e37b64"
+  "built_at_commit": "c51cdb997bdbe621a8073562126d41a681379b2e"
 }
