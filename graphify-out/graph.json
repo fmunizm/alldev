@@ -54,7 +54,7 @@
       "source_file": "templates/login-google/frontend.tsx",
       "source_location": "L1",
       "id": "templates_login_google_frontend_tsx",
-      "community": 1,
+      "community": 0,
       "norm_label": "frontend.tsx"
     },
     {
@@ -63,7 +63,7 @@
       "source_file": "templates/login-google/frontend.tsx",
       "source_location": "L3",
       "id": "login_google_frontend_logingoogle",
-      "community": 1,
+      "community": 0,
       "norm_label": "logingoogle()"
     },
     {
@@ -90,7 +90,7 @@
       "source_file": "templates/cadastro-clientes/frontend.tsx",
       "source_location": "L1",
       "id": "templates_cadastro_clientes_frontend_tsx",
-      "community": 0,
+      "community": 1,
       "norm_label": "frontend.tsx"
     },
     {
@@ -99,7 +99,7 @@
       "source_file": "templates/cadastro-clientes/frontend.tsx",
       "source_location": "L3",
       "id": "cadastro_clientes_frontend_cadastrocliente",
-      "community": 0,
+      "community": 1,
       "norm_label": "cadastrocliente()"
     }
   ],
@@ -126,5 +126,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "627f30c516319829744dbda10e46f05a3035bb6e"
+  "built_at_commit": "99a4ca626964707ed20f05c750de71b05f29442b"
 }
