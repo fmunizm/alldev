@@ -1,25 +1,92 @@
-# Graph Report - alldev  (2026-05-06)
+# Graph Report - alldev  (2026-05-07)
 
 ## Corpus Check
-- 9 files · ~4,000 words
+- 13 files · ~4,000 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 11 nodes · 2 edges · 9 communities
+- 79 nodes · 66 edges · 17 communities
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `99a4ca62`
+- Built from commit: `ee1331d2`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
+## Community Hubs (Navigation)
+- [[_COMMUNITY_Community 0|Community 0]]
+- [[_COMMUNITY_Community 1|Community 1]]
+- [[_COMMUNITY_Community 2|Community 2]]
+- [[_COMMUNITY_Community 3|Community 3]]
+- [[_COMMUNITY_Community 4|Community 4]]
+- [[_COMMUNITY_Community 5|Community 5]]
+- [[_COMMUNITY_Community 6|Community 6]]
+- [[_COMMUNITY_Community 7|Community 7]]
+
 ## God Nodes (most connected - your core abstractions)
+1. `ATENCAO CLAUDE - LEIA E OBEDECA ESTE BLOCO ANTES DE QUALQUER OUTRA COISA` - 10 edges
+2. `CLAUDE.md - fmunizm/alldev` - 8 edges
+3. `AllDev GPT  Dev Fullstack + DevOps + QA Autnomo` - 7 edges
+4. `🧠 AllDev GPT – Dev Fullstack + DevOps + QA Autônomo` - 6 edges
+5. `10. CHECKLIST DE ENTREGA OBRIGATORIO` - 6 edges
+6. `🚀 Como usar este repositório com ChatGPT` - 4 edges
+7. `3. SQUAD DE IAs (skills aplicaveis)` - 4 edges
+8. `Como usar este repositrio com ChatGPT` - 4 edges
+9. `REGRA 2.5 - GERACAO DE ARQUIVOS (Excel, PDF, DOCX, PPTX) - SKILLS XLSX/PDF/DOCX/PPTX` - 3 edges
+10. `4. METODOLOGIA DE TRABALHO` - 3 edges
 
 ## Surprising Connections (you probably didn't know these)
 - None detected - all connections are within the same source files.
 
-## Communities (9 total, 0 thin omitted)
+## Communities (17 total, 0 thin omitted)
+
+### Community 0 - "Community 0"
+Cohesion: 0.14
+Nodes (14): 1. IDENTIDADE DO PROJETO, 2. SEU PAPEL - ORQUESTRADOR, 3. SQUAD DE IAs (skills aplicaveis), 4. METODOLOGIA DE TRABALHO, 5. CONHECIMENTO ESPECIFICO DO PROJETO, CLAUDE.md - fmunizm/alldev, Fluxo padrao para qualquer tarefa, Padroes obrigatorios (+6 more)
+
+### Community 1 - "Community 1"
+Cohesion: 0.17
+Nodes (12): ATENCAO CLAUDE - LEIA E OBEDECA ESTE BLOCO ANTES DE QUALQUER OUTRA COISA, Fluxo padrao quando o usuario pede arquivo, Padroes Brasil obrigatorios em cada arquivo gerado, REGRA 0 - VOCE E O LIDER + ORQUESTRADOR DESTE REPO. ATIVO. AGORA., REGRA -1 - O USUARIO E LEIGO. NUNCA PERGUNTE SOBRE PERSONA, SKILL OU CONFIGURACAO., REGRA 1 - SKILLS BASAIS - SEMPRE ON. NAO PERGUNTE. NAO ESCOLHA., REGRA 2.5 - GERACAO DE ARQUIVOS (Excel, PDF, DOCX, PPTX) - SKILLS XLSX/PDF/DOCX/PPTX, REGRA 2 - SKILLS CONDICIONAIS PARA REPO DE DESENVOLVIMENTO (+4 more)
+
+### Community 2 - "Community 2"
+Cohesion: 0.18
+Nodes (10): 11. REFERENCIAS RAPIDAS, 1 Ative o GitHub Pages, 2 Crie o GPT em [chat.openai.com/gpts/editor](https://chat.openai.com/gpts/editor), 9. APRENDIZADO E ATUALIZACAO CONTINUA, AllDev GPT  Dev Fullstack + DevOps + QA Autnomo, Como usar este repositrio com ChatGPT, Estruturas centrais (God Nodes pelo Graphify), O que est aqui (+2 more)
+
+### Community 3 - "Community 3"
+Cohesion: 0.2
+Nodes (9): 1️⃣ Ative o GitHub Pages, 2️⃣ Crie o GPT em [chat.openai.com/gpts/editor](https://chat.openai.com/gpts/editor), 3️⃣ O GPT pode:, 🧠 AllDev GPT – Dev Fullstack + DevOps + QA Autônomo, 🚀 Como usar este repositório com ChatGPT, ✉️ Contato, 📦 O que está aqui, 🔒 Segurança (+1 more)
+
+### Community 4 - "Community 4"
+Cohesion: 0.33
+Nodes (6): 10. CHECKLIST DE ENTREGA OBRIGATORIO, Codigo, Deploy, Documentacao, Sinalizar conclusao, Testes
+
+### Community 5 - "Community 5"
+Cohesion: 0.4
+Nodes (5): 7. ESTRUTURA DO REPO, Arquivos da raiz (amostra), code:block1 (.claude), code:block2 (.gitignore), Diretorios principais
+
+### Community 6 - "Community 6"
+Cohesion: 0.4
+Nodes (4): Aprendizados, Aprendizados - fmunizm/alldev, Como usar, YYYY-MM-DD - Titulo do aprendizado [#categoria]
+
+### Community 7 - "Community 7"
+Cohesion: 0.4
+Nodes (4): Como usar, Historico, Historico de Sessoes - fmunizm/alldev, YYYY-MM-DD - vX.Y.Z - Titulo da sessao
+
+## Knowledge Gaps
+- **45 isolated node(s):** `📦 O que está aqui`, `1️⃣ Ative o GitHub Pages`, `2️⃣ Crie o GPT em [chat.openai.com/gpts/editor](https://chat.openai.com/gpts/editor)`, `3️⃣ O GPT pode:`, `👤 Sobre este repositório` (+40 more)
+  These have ≤1 connection - possible missing edges or undocumented components.
 
 ## Suggested Questions
-_Not enough signal to generate questions. This usually means the corpus has no AMBIGUOUS edges, no bridge nodes, no INFERRED relationships, and all communities are tightly cohesive. Add more files or run with --mode deep to extract richer edges._
+_Questions this graph is uniquely positioned to answer:_
+
+- **Why does `AllDev GPT  Dev Fullstack + DevOps + QA Autnomo` connect `Community 2` to `Community 4`, `Community 5`?**
+  _High betweenness centrality (0.232) - this node is a cross-community bridge._
+- **Why does `CLAUDE.md - fmunizm/alldev` connect `Community 0` to `Community 2`?**
+  _High betweenness centrality (0.170) - this node is a cross-community bridge._
+- **Why does `ATENCAO CLAUDE - LEIA E OBEDECA ESTE BLOCO ANTES DE QUALQUER OUTRA COISA` connect `Community 1` to `Community 2`?**
+  _High betweenness centrality (0.149) - this node is a cross-community bridge._
+- **What connects `📦 O que está aqui`, `1️⃣ Ative o GitHub Pages`, `2️⃣ Crie o GPT em [chat.openai.com/gpts/editor](https://chat.openai.com/gpts/editor)` to the rest of the system?**
+  _45 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Should `Community 0` be split into smaller, more focused modules?**
+  _Cohesion score 0.14 - nodes in this community are weakly interconnected._
