@@ -9,7 +9,7 @@
       "source_file": "tests/e2e/exemplo.spec.ts",
       "source_location": "L1",
       "id": "tests_e2e_exemplo_spec_ts",
-      "community": 10,
+      "community": 12,
       "norm_label": "exemplo.spec.ts"
     },
     {
@@ -18,7 +18,7 @@
       "source_file": "tests/backend/exemplo.test.ts",
       "source_location": "L1",
       "id": "tests_backend_exemplo_test_ts",
-      "community": 11,
+      "community": 13,
       "norm_label": "exemplo.test.ts"
     },
     {
@@ -27,7 +27,7 @@
       "source_file": "tests/frontend/exemplo.test.tsx",
       "source_location": "L1",
       "id": "tests_frontend_exemplo_test_tsx",
-      "community": 12,
+      "community": 14,
       "norm_label": "exemplo.test.tsx"
     },
     {
@@ -36,8 +36,17 @@
       "source_file": "templates/login-google/backend.ts",
       "source_location": "L1",
       "id": "templates_login_google_backend_ts",
-      "community": 13,
+      "community": 9,
       "norm_label": "backend.ts"
+    },
+    {
+      "label": "router",
+      "file_type": "code",
+      "source_file": "templates/login-google/backend.ts",
+      "source_location": "L4",
+      "id": "login_google_backend_router",
+      "community": 9,
+      "norm_label": "router"
     },
     {
       "label": "test.spec.ts",
@@ -45,7 +54,7 @@
       "source_file": "templates/login-google/test.spec.ts",
       "source_location": "L1",
       "id": "templates_login_google_test_spec_ts",
-      "community": 14,
+      "community": 15,
       "norm_label": "test.spec.ts"
     },
     {
@@ -54,7 +63,7 @@
       "source_file": "templates/login-google/frontend.tsx",
       "source_location": "L1",
       "id": "templates_login_google_frontend_tsx",
-      "community": 8,
+      "community": 10,
       "norm_label": "frontend.tsx"
     },
     {
@@ -63,7 +72,7 @@
       "source_file": "templates/login-google/frontend.tsx",
       "source_location": "L3",
       "id": "login_google_frontend_logingoogle",
-      "community": 8,
+      "community": 10,
       "norm_label": "logingoogle()"
     },
     {
@@ -72,8 +81,26 @@
       "source_file": "templates/cadastro-clientes/backend.ts",
       "source_location": "L1",
       "id": "templates_cadastro_clientes_backend_ts",
-      "community": 15,
+      "community": 8,
       "norm_label": "backend.ts"
+    },
+    {
+      "label": "router",
+      "file_type": "code",
+      "source_file": "templates/cadastro-clientes/backend.ts",
+      "source_location": "L4",
+      "id": "cadastro_clientes_backend_router",
+      "community": 8,
+      "norm_label": "router"
+    },
+    {
+      "label": "prisma",
+      "file_type": "code",
+      "source_file": "templates/cadastro-clientes/backend.ts",
+      "source_location": "L5",
+      "id": "cadastro_clientes_backend_prisma",
+      "community": 8,
+      "norm_label": "prisma"
     },
     {
       "label": "test.spec.ts",
@@ -90,7 +117,7 @@
       "source_file": "templates/cadastro-clientes/frontend.tsx",
       "source_location": "L1",
       "id": "templates_cadastro_clientes_frontend_tsx",
-      "community": 9,
+      "community": 11,
       "norm_label": "frontend.tsx"
     },
     {
@@ -99,7 +126,7 @@
       "source_file": "templates/cadastro-clientes/frontend.tsx",
       "source_location": "L3",
       "id": "cadastro_clientes_frontend_cadastrocliente",
-      "community": 9,
+      "community": 11,
       "norm_label": "cadastrocliente()"
     },
     {
@@ -719,12 +746,42 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "templates/login-google/backend.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "templates_login_google_backend_ts",
+      "target": "login_google_backend_router",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "templates/login-google/frontend.tsx",
       "source_location": "L3",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "templates_login_google_frontend_tsx",
       "target": "login_google_frontend_logingoogle"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/cadastro-clientes/backend.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "templates_cadastro_clientes_backend_ts",
+      "target": "cadastro_clientes_backend_router",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/cadastro-clientes/backend.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "templates_cadastro_clientes_backend_ts",
+      "target": "cadastro_clientes_backend_prisma",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -742,9 +799,9 @@
       "source_file": "README.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_md",
-      "target": "alldev_readme_alldev_gpt_dev_fullstack_devops_qa_aut_nomo",
-      "confidence_score": 1.0
+      "target": "alldev_readme_alldev_gpt_dev_fullstack_devops_qa_aut_nomo"
     },
     {
       "relation": "contains",
@@ -752,9 +809,9 @@
       "source_file": "README.md",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "alldev_readme_alldev_gpt_dev_fullstack_devops_qa_aut_nomo",
-      "target": "alldev_readme_o_que_est_aqui",
-      "confidence_score": 1.0
+      "target": "alldev_readme_o_que_est_aqui"
     },
     {
       "relation": "contains",
@@ -762,9 +819,9 @@
       "source_file": "README.md",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "alldev_readme_alldev_gpt_dev_fullstack_devops_qa_aut_nomo",
-      "target": "alldev_readme_como_usar_este_reposit_rio_com_chatgpt",
-      "confidence_score": 1.0
+      "target": "alldev_readme_como_usar_este_reposit_rio_com_chatgpt"
     },
     {
       "relation": "contains",
@@ -772,9 +829,9 @@
       "source_file": "README.md",
       "source_location": "L62",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "alldev_readme_alldev_gpt_dev_fullstack_devops_qa_aut_nomo",
-      "target": "alldev_readme_sobre_este_reposit_rio",
-      "confidence_score": 1.0
+      "target": "alldev_readme_sobre_este_reposit_rio"
     },
     {
       "relation": "contains",
@@ -782,9 +839,9 @@
       "source_file": "README.md",
       "source_location": "L69",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "alldev_readme_alldev_gpt_dev_fullstack_devops_qa_aut_nomo",
-      "target": "alldev_readme_seguran_a",
-      "confidence_score": 1.0
+      "target": "alldev_readme_seguran_a"
     },
     {
       "relation": "contains",
@@ -792,9 +849,9 @@
       "source_file": "README.md",
       "source_location": "L77",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "alldev_readme_alldev_gpt_dev_fullstack_devops_qa_aut_nomo",
-      "target": "alldev_readme_contato",
-      "confidence_score": 1.0
+      "target": "alldev_readme_contato"
     },
     {
       "relation": "contains",
@@ -802,9 +859,9 @@
       "source_file": "README.md",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "alldev_readme_como_usar_este_reposit_rio_com_chatgpt",
-      "target": "alldev_readme_1_ative_o_github_pages",
-      "confidence_score": 1.0
+      "target": "alldev_readme_1_ative_o_github_pages"
     },
     {
       "relation": "contains",
@@ -812,9 +869,9 @@
       "source_file": "README.md",
       "source_location": "L31",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "alldev_readme_como_usar_este_reposit_rio_com_chatgpt",
-      "target": "alldev_readme_2_crie_o_gpt_em_chat_openai_com_gpts_editor_https_chat_openai_com_gpts_editor",
-      "confidence_score": 1.0
+      "target": "alldev_readme_2_crie_o_gpt_em_chat_openai_com_gpts_editor_https_chat_openai_com_gpts_editor"
     },
     {
       "relation": "contains",
@@ -822,9 +879,9 @@
       "source_file": "README.md",
       "source_location": "L45",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "alldev_readme_como_usar_este_reposit_rio_com_chatgpt",
-      "target": "alldev_readme_3_o_gpt_pode",
-      "confidence_score": 1.0
+      "target": "alldev_readme_3_o_gpt_pode"
     },
     {
       "relation": "contains",
@@ -832,9 +889,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_md",
-      "target": "alldev_claude_atencao_claude_leia_e_obedeca_este_bloco_antes_de_qualquer_outra_coisa",
-      "confidence_score": 1.0
+      "target": "alldev_claude_atencao_claude_leia_e_obedeca_este_bloco_antes_de_qualquer_outra_coisa"
     },
     {
       "relation": "contains",
@@ -842,9 +899,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L158",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_md",
-      "target": "alldev_claude_claude_md_fmunizm_alldev",
-      "confidence_score": 1.0
+      "target": "alldev_claude_claude_md_fmunizm_alldev"
     },
     {
       "relation": "contains",
@@ -852,9 +909,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L288",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_md",
-      "target": "alldev_claude_alldev_gpt_dev_fullstack_devops_qa_autnomo",
-      "confidence_score": 1.0
+      "target": "alldev_claude_alldev_gpt_dev_fullstack_devops_qa_autnomo"
     },
     {
       "relation": "contains",
@@ -862,9 +919,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "alldev_claude_atencao_claude_leia_e_obedeca_este_bloco_antes_de_qualquer_outra_coisa",
-      "target": "alldev_claude_regra_1_o_usuario_e_leigo_nunca_pergunte_sobre_persona_skill_ou_configuracao",
-      "confidence_score": 1.0
+      "target": "alldev_claude_regra_1_o_usuario_e_leigo_nunca_pergunte_sobre_persona_skill_ou_configuracao"
     },
     {
       "relation": "contains",
@@ -872,9 +929,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "alldev_claude_atencao_claude_leia_e_obedeca_este_bloco_antes_de_qualquer_outra_coisa",
-      "target": "alldev_claude_regra_0_voce_e_o_lider_orquestrador_deste_repo_ativo_agora",
-      "confidence_score": 1.0
+      "target": "alldev_claude_regra_0_voce_e_o_lider_orquestrador_deste_repo_ativo_agora"
     },
     {
       "relation": "contains",
@@ -882,9 +939,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L41",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "alldev_claude_atencao_claude_leia_e_obedeca_este_bloco_antes_de_qualquer_outra_coisa",
-      "target": "alldev_claude_regra_1_skills_basais_sempre_on_nao_pergunte_nao_escolha",
-      "confidence_score": 1.0
+      "target": "alldev_claude_regra_1_skills_basais_sempre_on_nao_pergunte_nao_escolha"
     },
     {
       "relation": "contains",
@@ -892,9 +949,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L51",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "alldev_claude_atencao_claude_leia_e_obedeca_este_bloco_antes_de_qualquer_outra_coisa",
-      "target": "alldev_claude_regra_2_skills_condicionais_para_repo_de_desenvolvimento",
-      "confidence_score": 1.0
+      "target": "alldev_claude_regra_2_skills_condicionais_para_repo_de_desenvolvimento"
     },
     {
       "relation": "contains",
@@ -902,9 +959,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L69",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "alldev_claude_atencao_claude_leia_e_obedeca_este_bloco_antes_de_qualquer_outra_coisa",
-      "target": "alldev_claude_regra_2_5_geracao_de_arquivos_excel_pdf_docx_pptx_skills_xlsx_pdf_docx_pptx",
-      "confidence_score": 1.0
+      "target": "alldev_claude_regra_2_5_geracao_de_arquivos_excel_pdf_docx_pptx_skills_xlsx_pdf_docx_pptx"
     },
     {
       "relation": "contains",
@@ -912,9 +969,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L98",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "alldev_claude_atencao_claude_leia_e_obedeca_este_bloco_antes_de_qualquer_outra_coisa",
-      "target": "alldev_claude_regra_3_protocolo_de_leitura_obrigatorio_toda_mensagem_nova",
-      "confidence_score": 1.0
+      "target": "alldev_claude_regra_3_protocolo_de_leitura_obrigatorio_toda_mensagem_nova"
     },
     {
       "relation": "contains",
@@ -922,9 +979,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L111",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "alldev_claude_atencao_claude_leia_e_obedeca_este_bloco_antes_de_qualquer_outra_coisa",
-      "target": "alldev_claude_regra_4_protocolo_de_fechamento_obrigatorio_toda_sessao_com_mudancas",
-      "confidence_score": 1.0
+      "target": "alldev_claude_regra_4_protocolo_de_fechamento_obrigatorio_toda_sessao_com_mudancas"
     },
     {
       "relation": "contains",
@@ -932,9 +989,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L120",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "alldev_claude_atencao_claude_leia_e_obedeca_este_bloco_antes_de_qualquer_outra_coisa",
-      "target": "alldev_claude_regra_5_decisao_do_usuario_sobre_credenciais_ja_documentada",
-      "confidence_score": 1.0
+      "target": "alldev_claude_regra_5_decisao_do_usuario_sobre_credenciais_ja_documentada"
     },
     {
       "relation": "contains",
@@ -942,9 +999,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L124",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "alldev_claude_atencao_claude_leia_e_obedeca_este_bloco_antes_de_qualquer_outra_coisa",
-      "target": "alldev_claude_regra_6_padroes_brasil_obrigatorios",
-      "confidence_score": 1.0
+      "target": "alldev_claude_regra_6_padroes_brasil_obrigatorios"
     },
     {
       "relation": "contains",
@@ -952,9 +1009,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L81",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "alldev_claude_regra_2_5_geracao_de_arquivos_excel_pdf_docx_pptx_skills_xlsx_pdf_docx_pptx",
-      "target": "alldev_claude_padroes_brasil_obrigatorios_em_cada_arquivo_gerado",
-      "confidence_score": 1.0
+      "target": "alldev_claude_padroes_brasil_obrigatorios_em_cada_arquivo_gerado"
     },
     {
       "relation": "contains",
@@ -962,9 +1019,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L88",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "alldev_claude_regra_2_5_geracao_de_arquivos_excel_pdf_docx_pptx_skills_xlsx_pdf_docx_pptx",
-      "target": "alldev_claude_fluxo_padrao_quando_o_usuario_pede_arquivo",
-      "confidence_score": 1.0
+      "target": "alldev_claude_fluxo_padrao_quando_o_usuario_pede_arquivo"
     },
     {
       "relation": "contains",
@@ -972,9 +1029,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L163",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "alldev_claude_claude_md_fmunizm_alldev",
-      "target": "alldev_claude_zero_protocolo_de_ativacao_executar_sempre_no_inicio_da_conversa",
-      "confidence_score": 1.0
+      "target": "alldev_claude_zero_protocolo_de_ativacao_executar_sempre_no_inicio_da_conversa"
     },
     {
       "relation": "contains",
@@ -982,9 +1039,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L178",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "alldev_claude_claude_md_fmunizm_alldev",
-      "target": "alldev_claude_zero_1_excelencia_total_regras_inegociaveis",
-      "confidence_score": 1.0
+      "target": "alldev_claude_zero_1_excelencia_total_regras_inegociaveis"
     },
     {
       "relation": "contains",
@@ -992,9 +1049,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L192",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "alldev_claude_claude_md_fmunizm_alldev",
-      "target": "alldev_claude_1_identidade_do_projeto",
-      "confidence_score": 1.0
+      "target": "alldev_claude_1_identidade_do_projeto"
     },
     {
       "relation": "contains",
@@ -1002,9 +1059,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L200",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "alldev_claude_claude_md_fmunizm_alldev",
-      "target": "alldev_claude_2_seu_papel_orquestrador",
-      "confidence_score": 1.0
+      "target": "alldev_claude_2_seu_papel_orquestrador"
     },
     {
       "relation": "contains",
@@ -1012,9 +1069,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L218",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "alldev_claude_claude_md_fmunizm_alldev",
-      "target": "alldev_claude_3_squad_de_ias_skills_aplicaveis",
-      "confidence_score": 1.0
+      "target": "alldev_claude_3_squad_de_ias_skills_aplicaveis"
     },
     {
       "relation": "contains",
@@ -1022,9 +1079,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L236",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "alldev_claude_claude_md_fmunizm_alldev",
-      "target": "alldev_claude_4_metodologia_de_trabalho",
-      "confidence_score": 1.0
+      "target": "alldev_claude_4_metodologia_de_trabalho"
     },
     {
       "relation": "contains",
@@ -1032,9 +1089,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L284",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "alldev_claude_claude_md_fmunizm_alldev",
-      "target": "alldev_claude_5_conhecimento_especifico_do_projeto",
-      "confidence_score": 1.0
+      "target": "alldev_claude_5_conhecimento_especifico_do_projeto"
     },
     {
       "relation": "contains",
@@ -1042,9 +1099,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L220",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "alldev_claude_3_squad_de_ias_skills_aplicaveis",
-      "target": "alldev_claude_skills_basais_sempre_validas_em_qualquer_tarefa",
-      "confidence_score": 1.0
+      "target": "alldev_claude_skills_basais_sempre_validas_em_qualquer_tarefa"
     },
     {
       "relation": "contains",
@@ -1052,9 +1109,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L228",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "alldev_claude_3_squad_de_ias_skills_aplicaveis",
-      "target": "alldev_claude_skills_especificas_deste_projeto",
-      "confidence_score": 1.0
+      "target": "alldev_claude_skills_especificas_deste_projeto"
     },
     {
       "relation": "contains",
@@ -1062,9 +1119,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L232",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "alldev_claude_3_squad_de_ias_skills_aplicaveis",
-      "target": "alldev_claude_quando_usar_cada_skill",
-      "confidence_score": 1.0
+      "target": "alldev_claude_quando_usar_cada_skill"
     },
     {
       "relation": "contains",
@@ -1072,9 +1129,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L238",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "alldev_claude_4_metodologia_de_trabalho",
-      "target": "alldev_claude_fluxo_padrao_para_qualquer_tarefa",
-      "confidence_score": 1.0
+      "target": "alldev_claude_fluxo_padrao_para_qualquer_tarefa"
     },
     {
       "relation": "contains",
@@ -1082,9 +1139,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L274",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "alldev_claude_4_metodologia_de_trabalho",
-      "target": "alldev_claude_padroes_obrigatorios",
-      "confidence_score": 1.0
+      "target": "alldev_claude_padroes_obrigatorios"
     },
     {
       "relation": "contains",
@@ -1092,9 +1149,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L286",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "alldev_claude_5_conhecimento_especifico_do_projeto",
-      "target": "alldev_claude_sumario_do_readme",
-      "confidence_score": 1.0
+      "target": "alldev_claude_sumario_do_readme"
     },
     {
       "relation": "contains",
@@ -1102,9 +1159,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L294",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "alldev_claude_alldev_gpt_dev_fullstack_devops_qa_autnomo",
-      "target": "alldev_claude_o_que_est_aqui",
-      "confidence_score": 1.0
+      "target": "alldev_claude_o_que_est_aqui"
     },
     {
       "relation": "contains",
@@ -1112,9 +1169,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L306",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "alldev_claude_alldev_gpt_dev_fullstack_devops_qa_autnomo",
-      "target": "alldev_claude_como_usar_este_repositrio_com_chatgpt",
-      "confidence_score": 1.0
+      "target": "alldev_claude_como_usar_este_repositrio_com_chatgpt"
     },
     {
       "relation": "contains",
@@ -1122,9 +1179,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L339",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "alldev_claude_alldev_gpt_dev_fullstack_devops_qa_autnomo",
-      "target": "alldev_claude_7_estrutura_do_repo",
-      "confidence_score": 1.0
+      "target": "alldev_claude_7_estrutura_do_repo"
     },
     {
       "relation": "contains",
@@ -1132,9 +1189,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L367",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "alldev_claude_alldev_gpt_dev_fullstack_devops_qa_autnomo",
-      "target": "alldev_claude_9_aprendizado_e_atualizacao_continua",
-      "confidence_score": 1.0
+      "target": "alldev_claude_9_aprendizado_e_atualizacao_continua"
     },
     {
       "relation": "contains",
@@ -1142,9 +1199,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L405",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "alldev_claude_alldev_gpt_dev_fullstack_devops_qa_autnomo",
-      "target": "alldev_claude_10_checklist_de_entrega_obrigatorio",
-      "confidence_score": 1.0
+      "target": "alldev_claude_10_checklist_de_entrega_obrigatorio"
     },
     {
       "relation": "contains",
@@ -1152,9 +1209,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L447",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "alldev_claude_alldev_gpt_dev_fullstack_devops_qa_autnomo",
-      "target": "alldev_claude_11_referencias_rapidas",
-      "confidence_score": 1.0
+      "target": "alldev_claude_11_referencias_rapidas"
     },
     {
       "relation": "contains",
@@ -1162,9 +1219,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L308",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "alldev_claude_como_usar_este_repositrio_com_chatgpt",
-      "target": "alldev_claude_1_ative_o_github_pages",
-      "confidence_score": 1.0
+      "target": "alldev_claude_1_ative_o_github_pages"
     },
     {
       "relation": "contains",
@@ -1172,9 +1229,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L318",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "alldev_claude_como_usar_este_repositrio_com_chatgpt",
-      "target": "alldev_claude_2_crie_o_gpt_em_chat_openai_com_gpts_editor_https_chat_openai_com_gpts_editor",
-      "confidence_score": 1.0
+      "target": "alldev_claude_2_crie_o_gpt_em_chat_openai_com_gpts_editor_https_chat_openai_com_gpts_editor"
     },
     {
       "relation": "contains",
@@ -1182,9 +1239,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L335",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "alldev_claude_como_usar_este_repositrio_com_chatgpt",
-      "target": "alldev_claude_estruturas_centrais_god_nodes_pelo_graphify",
-      "confidence_score": 1.0
+      "target": "alldev_claude_estruturas_centrais_god_nodes_pelo_graphify"
     },
     {
       "relation": "contains",
@@ -1192,9 +1249,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L341",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "alldev_claude_7_estrutura_do_repo",
-      "target": "alldev_claude_diretorios_principais",
-      "confidence_score": 1.0
+      "target": "alldev_claude_diretorios_principais"
     },
     {
       "relation": "contains",
@@ -1202,9 +1259,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L354",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "alldev_claude_7_estrutura_do_repo",
-      "target": "alldev_claude_arquivos_da_raiz_amostra",
-      "confidence_score": 1.0
+      "target": "alldev_claude_arquivos_da_raiz_amostra"
     },
     {
       "relation": "contains",
@@ -1212,9 +1269,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L343",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "alldev_claude_diretorios_principais",
-      "target": "alldev_claude_codeblock_1",
-      "confidence_score": 1.0
+      "target": "alldev_claude_codeblock_1"
     },
     {
       "relation": "contains",
@@ -1222,9 +1279,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L356",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "alldev_claude_arquivos_da_raiz_amostra",
-      "target": "alldev_claude_codeblock_2",
-      "confidence_score": 1.0
+      "target": "alldev_claude_codeblock_2"
     },
     {
       "relation": "contains",
@@ -1232,9 +1289,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L369",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "alldev_claude_9_aprendizado_e_atualizacao_continua",
-      "target": "alldev_claude_regra_de_ouro_sempre_atualize_o_conhecimento_do_projeto",
-      "confidence_score": 1.0
+      "target": "alldev_claude_regra_de_ouro_sempre_atualize_o_conhecimento_do_projeto"
     },
     {
       "relation": "contains",
@@ -1242,9 +1299,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L395",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "alldev_claude_9_aprendizado_e_atualizacao_continua",
-      "target": "alldev_claude_triggers_para_regenerar_grafo",
-      "confidence_score": 1.0
+      "target": "alldev_claude_triggers_para_regenerar_grafo"
     },
     {
       "relation": "contains",
@@ -1252,9 +1309,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L409",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "alldev_claude_10_checklist_de_entrega_obrigatorio",
-      "target": "alldev_claude_codigo",
-      "confidence_score": 1.0
+      "target": "alldev_claude_codigo"
     },
     {
       "relation": "contains",
@@ -1262,9 +1319,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L417",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "alldev_claude_10_checklist_de_entrega_obrigatorio",
-      "target": "alldev_claude_testes",
-      "confidence_score": 1.0
+      "target": "alldev_claude_testes"
     },
     {
       "relation": "contains",
@@ -1272,9 +1329,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L425",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "alldev_claude_10_checklist_de_entrega_obrigatorio",
-      "target": "alldev_claude_documentacao",
-      "confidence_score": 1.0
+      "target": "alldev_claude_documentacao"
     },
     {
       "relation": "contains",
@@ -1282,9 +1339,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L433",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "alldev_claude_10_checklist_de_entrega_obrigatorio",
-      "target": "alldev_claude_deploy",
-      "confidence_score": 1.0
+      "target": "alldev_claude_deploy"
     },
     {
       "relation": "contains",
@@ -1292,9 +1349,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L441",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "alldev_claude_10_checklist_de_entrega_obrigatorio",
-      "target": "alldev_claude_sinalizar_conclusao",
-      "confidence_score": 1.0
+      "target": "alldev_claude_sinalizar_conclusao"
     },
     {
       "relation": "contains",
@@ -1302,9 +1359,9 @@
       "source_file": "docs/APRENDIZADOS.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_aprendizados_md",
-      "target": "docs_aprendizados_aprendizados_fmunizm_alldev",
-      "confidence_score": 1.0
+      "target": "docs_aprendizados_aprendizados_fmunizm_alldev"
     },
     {
       "relation": "contains",
@@ -1312,9 +1369,9 @@
       "source_file": "docs/APRENDIZADOS.md",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_aprendizados_aprendizados_fmunizm_alldev",
-      "target": "docs_aprendizados_como_usar",
-      "confidence_score": 1.0
+      "target": "docs_aprendizados_como_usar"
     },
     {
       "relation": "contains",
@@ -1322,9 +1379,9 @@
       "source_file": "docs/APRENDIZADOS.md",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_aprendizados_aprendizados_fmunizm_alldev",
-      "target": "docs_aprendizados_aprendizados",
-      "confidence_score": 1.0
+      "target": "docs_aprendizados_aprendizados"
     },
     {
       "relation": "contains",
@@ -1332,9 +1389,9 @@
       "source_file": "docs/APRENDIZADOS.md",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_aprendizados_aprendizados",
-      "target": "docs_aprendizados_yyyy_mm_dd_titulo_do_aprendizado_categoria",
-      "confidence_score": 1.0
+      "target": "docs_aprendizados_yyyy_mm_dd_titulo_do_aprendizado_categoria"
     },
     {
       "relation": "contains",
@@ -1342,9 +1399,9 @@
       "source_file": "docs/HISTORICO.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_historico_md",
-      "target": "docs_historico_historico_de_sessoes_fmunizm_alldev",
-      "confidence_score": 1.0
+      "target": "docs_historico_historico_de_sessoes_fmunizm_alldev"
     },
     {
       "relation": "contains",
@@ -1352,9 +1409,9 @@
       "source_file": "docs/HISTORICO.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_historico_historico_de_sessoes_fmunizm_alldev",
-      "target": "docs_historico_como_usar",
-      "confidence_score": 1.0
+      "target": "docs_historico_como_usar"
     },
     {
       "relation": "contains",
@@ -1362,9 +1419,9 @@
       "source_file": "docs/HISTORICO.md",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_historico_historico_de_sessoes_fmunizm_alldev",
-      "target": "docs_historico_historico",
-      "confidence_score": 1.0
+      "target": "docs_historico_historico"
     },
     {
       "relation": "contains",
@@ -1372,11 +1429,11 @@
       "source_file": "docs/HISTORICO.md",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_historico_historico",
-      "target": "docs_historico_yyyy_mm_dd_vx_y_z_titulo_da_sessao",
-      "confidence_score": 1.0
+      "target": "docs_historico_yyyy_mm_dd_vx_y_z_titulo_da_sessao"
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "ee1331d248c1471c366e688cfda7be5ad84f0ac8"
+  "built_at_commit": "6912195b55e10a7b9676bb7826db78be46791e32"
 }
