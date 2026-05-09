@@ -749,9 +749,9 @@
       "source_file": "templates/login-google/backend.ts",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_login_google_backend_ts",
-      "target": "login_google_backend_router",
-      "confidence_score": 1.0
+      "target": "login_google_backend_router"
     },
     {
       "relation": "contains",
@@ -769,9 +769,9 @@
       "source_file": "templates/cadastro-clientes/backend.ts",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_cadastro_clientes_backend_ts",
-      "target": "cadastro_clientes_backend_router",
-      "confidence_score": 1.0
+      "target": "cadastro_clientes_backend_router"
     },
     {
       "relation": "contains",
@@ -779,9 +779,9 @@
       "source_file": "templates/cadastro-clientes/backend.ts",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_cadastro_clientes_backend_ts",
-      "target": "cadastro_clientes_backend_prisma",
-      "confidence_score": 1.0
+      "target": "cadastro_clientes_backend_prisma"
     },
     {
       "relation": "contains",
@@ -1435,5 +1435,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "6912195b55e10a7b9676bb7826db78be46791e32"
+  "built_at_commit": "dd0f58ea884e92fe72b66b4d305a40bf1e713c8d"
 }
