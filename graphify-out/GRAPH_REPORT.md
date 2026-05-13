@@ -1,4 +1,4 @@
-# Graph Report - alldev  (2026-05-12)
+# Graph Report - alldev  (2026-05-13)
 
 ## Corpus Check
 - 13 files · ~4,000 words
@@ -10,7 +10,7 @@
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `aad63b5d`
+- Built from commit: `e6b9bf74`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 

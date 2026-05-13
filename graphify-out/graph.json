@@ -844,9 +844,9 @@
       "source_file": "README.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_md",
-      "target": "alldev_readme_alldev_gpt_dev_fullstack_devops_qa_aut\u00f4nomo",
-      "confidence_score": 1.0
+      "target": "alldev_readme_alldev_gpt_dev_fullstack_devops_qa_aut\u00f4nomo"
     },
     {
       "relation": "contains",
@@ -864,9 +864,9 @@
       "source_file": "README.md",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "alldev_readme_alldev_gpt_dev_fullstack_devops_qa_aut\u00f4nomo",
-      "target": "alldev_readme_o_que_est\u00e1_aqui",
-      "confidence_score": 1.0
+      "target": "alldev_readme_o_que_est\u00e1_aqui"
     },
     {
       "relation": "contains",
@@ -874,9 +874,9 @@
       "source_file": "README.md",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "alldev_readme_alldev_gpt_dev_fullstack_devops_qa_aut\u00f4nomo",
-      "target": "alldev_readme_como_usar_este_reposit\u00f3rio_com_chatgpt",
-      "confidence_score": 1.0
+      "target": "alldev_readme_como_usar_este_reposit\u00f3rio_com_chatgpt"
     },
     {
       "relation": "contains",
@@ -884,9 +884,9 @@
       "source_file": "README.md",
       "source_location": "L62",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "alldev_readme_alldev_gpt_dev_fullstack_devops_qa_aut\u00f4nomo",
-      "target": "alldev_readme_sobre_este_reposit\u00f3rio",
-      "confidence_score": 1.0
+      "target": "alldev_readme_sobre_este_reposit\u00f3rio"
     },
     {
       "relation": "contains",
@@ -894,9 +894,9 @@
       "source_file": "README.md",
       "source_location": "L69",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "alldev_readme_alldev_gpt_dev_fullstack_devops_qa_aut\u00f4nomo",
-      "target": "alldev_readme_seguran\u00e7a",
-      "confidence_score": 1.0
+      "target": "alldev_readme_seguran\u00e7a"
     },
     {
       "relation": "contains",
@@ -904,9 +904,9 @@
       "source_file": "README.md",
       "source_location": "L77",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "alldev_readme_alldev_gpt_dev_fullstack_devops_qa_aut\u00f4nomo",
-      "target": "alldev_readme_contato",
-      "confidence_score": 1.0
+      "target": "alldev_readme_contato"
     },
     {
       "relation": "contains",
@@ -914,9 +914,9 @@
       "source_file": "README.md",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "alldev_readme_como_usar_este_reposit\u00f3rio_com_chatgpt",
-      "target": "alldev_readme_1_ative_o_github_pages",
-      "confidence_score": 1.0
+      "target": "alldev_readme_1_ative_o_github_pages"
     },
     {
       "relation": "contains",
@@ -924,9 +924,9 @@
       "source_file": "README.md",
       "source_location": "L31",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "alldev_readme_como_usar_este_reposit\u00f3rio_com_chatgpt",
-      "target": "alldev_readme_2_crie_o_gpt_em_chat_openai_com_gpts_editor_https_chat_openai_com_gpts_editor",
-      "confidence_score": 1.0
+      "target": "alldev_readme_2_crie_o_gpt_em_chat_openai_com_gpts_editor_https_chat_openai_com_gpts_editor"
     },
     {
       "relation": "contains",
@@ -934,9 +934,9 @@
       "source_file": "README.md",
       "source_location": "L45",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "alldev_readme_como_usar_este_reposit\u00f3rio_com_chatgpt",
-      "target": "alldev_readme_3_o_gpt_pode",
-      "confidence_score": 1.0
+      "target": "alldev_readme_3_o_gpt_pode"
     },
     {
       "relation": "contains",
@@ -1570,5 +1570,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "aad63b5dbbdfe3ebfbb7ea9a705cc53d23a9ad8a"
+  "built_at_commit": "e6b9bf74ccb93320c5d7d27c71a148515a0f5b23"
 }
