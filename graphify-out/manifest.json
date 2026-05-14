@@ -1,62 +1,62 @@
 {
   "/home/runner/work/alldev/alldev/tests/e2e/exemplo.spec.ts": {
-    "mtime": 1778660916.7995055,
+    "mtime": 1778746992.456695,
     "hash": "3ff4cba65cfc9887c1861b08e3b7141a"
   },
   "/home/runner/work/alldev/alldev/tests/backend/exemplo.test.ts": {
-    "mtime": 1778660916.7995055,
+    "mtime": 1778746992.456695,
     "hash": "cac8c7e33d9d5364f2aeb36974b09fe0"
   },
   "/home/runner/work/alldev/alldev/tests/frontend/exemplo.test.tsx": {
-    "mtime": 1778660916.7995055,
+    "mtime": 1778746992.456695,
     "hash": "3fea29665d45d1e7ba4c53211b9ea66c"
   },
   "/home/runner/work/alldev/alldev/templates/login-google/backend.ts": {
-    "mtime": 1778660916.7993014,
+    "mtime": 1778746992.4564705,
     "hash": "82c3a4dc6946a99979b772f95693cba8"
   },
   "/home/runner/work/alldev/alldev/templates/login-google/test.spec.ts": {
-    "mtime": 1778660916.799417,
+    "mtime": 1778746992.4566011,
     "hash": "52647606ad2a9c7ebe2cb895201cfa3d"
   },
   "/home/runner/work/alldev/alldev/templates/login-google/frontend.tsx": {
-    "mtime": 1778660916.799417,
+    "mtime": 1778746992.4566011,
     "hash": "368e86bd6d7dabb31d5bb748e3970ba3"
   },
   "/home/runner/work/alldev/alldev/templates/cadastro-clientes/backend.ts": {
-    "mtime": 1778660916.7992516,
+    "mtime": 1778746992.4564147,
     "hash": "22e536abd5b5dc55c6f8dc0d70efdcd8"
   },
   "/home/runner/work/alldev/alldev/templates/cadastro-clientes/test.spec.ts": {
-    "mtime": 1778660916.7993014,
+    "mtime": 1778746992.4564705,
     "hash": "5540bcfe01ff5d5670ace983646ae6b2"
   },
   "/home/runner/work/alldev/alldev/templates/cadastro-clientes/frontend.tsx": {
-    "mtime": 1778660916.7993014,
+    "mtime": 1778746992.4564705,
     "hash": "3107200f9288ea02feef9ade0f0d433d"
   },
   "/home/runner/work/alldev/alldev/README.md": {
-    "mtime": 1778660916.7972991,
+    "mtime": 1778746992.4544187,
     "hash": "0f1b84c9e49ae5f1ab20a02bb77a39f1"
   },
   "/home/runner/work/alldev/alldev/onboarding.html": {
-    "mtime": 1778660916.7982264,
+    "mtime": 1778746992.454965,
     "hash": "e0d3e9915bcd79e6f104f6538f8c319d"
   },
   "/home/runner/work/alldev/alldev/openapi.yaml": {
-    "mtime": 1778660916.7982264,
+    "mtime": 1778746992.454965,
     "hash": "4e17ac78efc22639e012e4e81c228144"
   },
   "/home/runner/work/alldev/alldev/CLAUDE.md": {
-    "mtime": 1778660916.7972991,
+    "mtime": 1778746992.4544187,
     "hash": "0bc440d99ed1dea32be58aca3668b1ab"
   },
   "/home/runner/work/alldev/alldev/docs/APRENDIZADOS.md": {
-    "mtime": 1778660916.7972991,
+    "mtime": 1778746992.4544187,
     "hash": "d5e97d9f0c4359a15f351fe563cb9af6"
   },
   "/home/runner/work/alldev/alldev/docs/HISTORICO.md": {
-    "mtime": 1778660916.7977245,
+    "mtime": 1778746992.4548216,
     "hash": "b96b80cc4bcc26c196413cdc1ade6cc9"
   }
 }
