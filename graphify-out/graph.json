@@ -4,6 +4,240 @@
   "graph": {},
   "nodes": [
     {
+      "label": "manifest.json",
+      "file_type": "code",
+      "source_file": "manifest.json",
+      "source_location": "L1",
+      "id": "manifest_json",
+      "community": 4,
+      "norm_label": "manifest.json"
+    },
+    {
+      "label": "name",
+      "file_type": "code",
+      "source_file": "manifest.json",
+      "source_location": "L2",
+      "id": "alldev_manifest_name",
+      "community": 4,
+      "norm_label": "name"
+    },
+    {
+      "label": "description",
+      "file_type": "code",
+      "source_file": "manifest.json",
+      "source_location": "L3",
+      "id": "alldev_manifest_description",
+      "community": 4,
+      "norm_label": "description"
+    },
+    {
+      "label": "instructions",
+      "file_type": "code",
+      "source_file": "manifest.json",
+      "source_location": "L4",
+      "id": "alldev_manifest_instructions",
+      "community": 4,
+      "norm_label": "instructions"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "manifest.json",
+      "source_location": "L5",
+      "id": "alldev_manifest_version",
+      "community": 4,
+      "norm_label": "version"
+    },
+    {
+      "label": "contact_email",
+      "file_type": "code",
+      "source_file": "manifest.json",
+      "source_location": "L6",
+      "id": "alldev_manifest_contact_email",
+      "community": 4,
+      "norm_label": "contact_email"
+    },
+    {
+      "label": "legal_info_url",
+      "file_type": "code",
+      "source_file": "manifest.json",
+      "source_location": "L7",
+      "id": "alldev_manifest_legal_info_url",
+      "community": 4,
+      "norm_label": "legal_info_url"
+    },
+    {
+      "label": "api",
+      "file_type": "code",
+      "source_file": "manifest.json",
+      "source_location": "L8",
+      "id": "alldev_manifest_api",
+      "community": 4,
+      "norm_label": "api"
+    },
+    {
+      "label": "type",
+      "file_type": "code",
+      "source_file": "manifest.json",
+      "source_location": "L9",
+      "id": "alldev_manifest_api_type",
+      "community": 4,
+      "norm_label": "type"
+    },
+    {
+      "label": "url",
+      "file_type": "code",
+      "source_file": "manifest.json",
+      "source_location": "L10",
+      "id": "alldev_manifest_api_url",
+      "community": 4,
+      "norm_label": "url"
+    },
+    {
+      "label": "auth",
+      "file_type": "code",
+      "source_file": "manifest.json",
+      "source_location": "L11",
+      "id": "alldev_manifest_api_auth",
+      "community": 4,
+      "norm_label": "auth"
+    },
+    {
+      "label": "type",
+      "file_type": "code",
+      "source_file": "manifest.json",
+      "source_location": "L12",
+      "id": "alldev_manifest_auth_type",
+      "community": 4,
+      "norm_label": "type"
+    },
+    {
+      "label": "authorizationUrl",
+      "file_type": "code",
+      "source_file": "manifest.json",
+      "source_location": "L13",
+      "id": "alldev_manifest_auth_authorizationurl",
+      "community": 4,
+      "norm_label": "authorizationurl"
+    },
+    {
+      "label": "instructions",
+      "file_type": "code",
+      "source_file": "manifest.json",
+      "source_location": "L14",
+      "id": "alldev_manifest_auth_instructions",
+      "community": 4,
+      "norm_label": "instructions"
+    },
+    {
+      "label": "logo_url",
+      "file_type": "code",
+      "source_file": "manifest.json",
+      "source_location": "L17",
+      "id": "alldev_manifest_logo_url",
+      "community": 4,
+      "norm_label": "logo_url"
+    },
+    {
+      "label": "setup.sh",
+      "file_type": "code",
+      "source_file": "setup.sh",
+      "source_location": "L1",
+      "id": "setup_sh",
+      "community": 24,
+      "norm_label": "setup.sh"
+    },
+    {
+      "label": "dependencies-map.json",
+      "file_type": "code",
+      "source_file": "dependencies-map.json",
+      "source_location": "L1",
+      "id": "dependencies_map_json",
+      "community": 17,
+      "norm_label": "dependencies-map.json"
+    },
+    {
+      "label": "clientes",
+      "file_type": "code",
+      "source_file": "dependencies-map.json",
+      "source_location": "L2",
+      "id": "alldev_dependencies_map_clientes",
+      "community": 17,
+      "norm_label": "clientes"
+    },
+    {
+      "label": "routes",
+      "file_type": "code",
+      "source_file": "dependencies-map.json",
+      "source_location": "L3",
+      "id": "alldev_dependencies_map_clientes_routes",
+      "community": 17,
+      "norm_label": "routes"
+    },
+    {
+      "label": "components",
+      "file_type": "code",
+      "source_file": "dependencies-map.json",
+      "source_location": "L6",
+      "id": "alldev_dependencies_map_clientes_components",
+      "community": 17,
+      "norm_label": "components"
+    },
+    {
+      "label": "tests",
+      "file_type": "code",
+      "source_file": "dependencies-map.json",
+      "source_location": "L9",
+      "id": "alldev_dependencies_map_clientes_tests",
+      "community": 17,
+      "norm_label": "tests"
+    },
+    {
+      "label": "database",
+      "file_type": "code",
+      "source_file": "dependencies-map.json",
+      "source_location": "L13",
+      "id": "alldev_dependencies_map_clientes_database",
+      "community": 17,
+      "norm_label": "database"
+    },
+    {
+      "label": "auth/google",
+      "file_type": "code",
+      "source_file": "dependencies-map.json",
+      "source_location": "L17",
+      "id": "alldev_dependencies_map_auth_google",
+      "community": 17,
+      "norm_label": "auth/google"
+    },
+    {
+      "label": "routes",
+      "file_type": "code",
+      "source_file": "dependencies-map.json",
+      "source_location": "L18",
+      "id": "alldev_dependencies_map_auth_google_routes",
+      "community": 17,
+      "norm_label": "routes"
+    },
+    {
+      "label": "components",
+      "file_type": "code",
+      "source_file": "dependencies-map.json",
+      "source_location": "L21",
+      "id": "alldev_dependencies_map_auth_google_components",
+      "community": 17,
+      "norm_label": "components"
+    },
+    {
+      "label": "tests",
+      "file_type": "code",
+      "source_file": "dependencies-map.json",
+      "source_location": "L24",
+      "id": "alldev_dependencies_map_auth_google_tests",
+      "community": 17,
+      "norm_label": "tests"
+    },
+    {
       "label": "exemplo.spec.ts",
       "file_type": "code",
       "source_file": "tests/e2e/exemplo.spec.ts",
@@ -128,6 +362,60 @@
       "id": "cadastro_clientes_frontend_cadastrocliente",
       "community": 11,
       "norm_label": "cadastrocliente()"
+    },
+    {
+      "label": "setup-vps.sh",
+      "file_type": "code",
+      "source_file": "scripts/setup-vps.sh",
+      "source_location": "L1",
+      "id": "scripts_setup_vps_sh",
+      "community": 23,
+      "norm_label": "setup-vps.sh"
+    },
+    {
+      "label": "deploy.sh",
+      "file_type": "code",
+      "source_file": "scripts/deploy.sh",
+      "source_location": "L1",
+      "id": "scripts_deploy_sh",
+      "community": 18,
+      "norm_label": "deploy.sh"
+    },
+    {
+      "label": "send-logs.sh",
+      "file_type": "code",
+      "source_file": "scripts/monitor/send-logs.sh",
+      "source_location": "L1",
+      "id": "scripts_monitor_send_logs_sh",
+      "community": 21,
+      "norm_label": "send-logs.sh"
+    },
+    {
+      "label": "setup-monitoring.sh",
+      "file_type": "code",
+      "source_file": "scripts/monitor/setup-monitoring.sh",
+      "source_location": "L1",
+      "id": "scripts_monitor_setup_monitoring_sh",
+      "community": 22,
+      "norm_label": "setup-monitoring.sh"
+    },
+    {
+      "label": "push-mirror.sh",
+      "file_type": "code",
+      "source_file": "scripts/git/push-mirror.sh",
+      "source_location": "L1",
+      "id": "scripts_git_push_mirror_sh",
+      "community": 19,
+      "norm_label": "push-mirror.sh"
+    },
+    {
+      "label": "setup-mirror.sh",
+      "file_type": "code",
+      "source_file": "scripts/git/setup-mirror.sh",
+      "source_location": "L1",
+      "id": "scripts_git_setup_mirror_sh",
+      "community": 20,
+      "norm_label": "setup-mirror.sh"
     },
     {
       "label": "README.md",
@@ -594,7 +882,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L405",
       "id": "alldev_claude_10_checklist_de_entrega_obrigatorio",
-      "community": 4,
+      "community": 3,
       "norm_label": "10. checklist de entrega obrigatorio"
     },
     {
@@ -603,7 +891,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L409",
       "id": "alldev_claude_codigo",
-      "community": 4,
+      "community": 3,
       "norm_label": "codigo"
     },
     {
@@ -612,7 +900,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L417",
       "id": "alldev_claude_testes",
-      "community": 4,
+      "community": 3,
       "norm_label": "testes"
     },
     {
@@ -621,7 +909,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L425",
       "id": "alldev_claude_documentacao",
-      "community": 4,
+      "community": 3,
       "norm_label": "documentacao"
     },
     {
@@ -630,7 +918,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L433",
       "id": "alldev_claude_deploy",
-      "community": 4,
+      "community": 3,
       "norm_label": "deploy"
     },
     {
@@ -639,7 +927,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L441",
       "id": "alldev_claude_sinalizar_conclusao",
-      "community": 4,
+      "community": 3,
       "norm_label": "sinalizar conclusao"
     },
     {
@@ -788,6 +1076,236 @@
     }
   ],
   "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "manifest_json",
+      "target": "alldev_manifest_name",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "manifest_json",
+      "target": "alldev_manifest_description",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "manifest_json",
+      "target": "alldev_manifest_instructions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "manifest_json",
+      "target": "alldev_manifest_version",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "manifest_json",
+      "target": "alldev_manifest_contact_email",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "manifest_json",
+      "target": "alldev_manifest_legal_info_url",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "manifest_json",
+      "target": "alldev_manifest_api",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "manifest_json",
+      "target": "alldev_manifest_logo_url",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "alldev_manifest_api",
+      "target": "alldev_manifest_api_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "alldev_manifest_api",
+      "target": "alldev_manifest_api_url",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "alldev_manifest_api",
+      "target": "alldev_manifest_api_auth",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "alldev_manifest_api_auth",
+      "target": "alldev_manifest_auth_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "alldev_manifest_api_auth",
+      "target": "alldev_manifest_auth_authorizationurl",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "alldev_manifest_api_auth",
+      "target": "alldev_manifest_auth_instructions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dependencies-map.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "dependencies_map_json",
+      "target": "alldev_dependencies_map_clientes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dependencies-map.json",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "dependencies_map_json",
+      "target": "alldev_dependencies_map_auth_google",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dependencies-map.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "alldev_dependencies_map_clientes",
+      "target": "alldev_dependencies_map_clientes_routes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dependencies-map.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "alldev_dependencies_map_clientes",
+      "target": "alldev_dependencies_map_clientes_components",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dependencies-map.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "alldev_dependencies_map_clientes",
+      "target": "alldev_dependencies_map_clientes_tests",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dependencies-map.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "alldev_dependencies_map_clientes",
+      "target": "alldev_dependencies_map_clientes_database",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dependencies-map.json",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "alldev_dependencies_map_auth_google",
+      "target": "alldev_dependencies_map_auth_google_routes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dependencies-map.json",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "alldev_dependencies_map_auth_google",
+      "target": "alldev_dependencies_map_auth_google_components",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dependencies-map.json",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "alldev_dependencies_map_auth_google",
+      "target": "alldev_dependencies_map_auth_google_tests",
+      "confidence_score": 1.0
+    },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
@@ -1570,5 +2088,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "e6b9bf74ccb93320c5d7d27c71a148515a0f5b23"
+  "built_at_commit": "5ee464414d5dfe6c33fdc46bfc6e35712cdc481a"
 }

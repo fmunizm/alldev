@@ -1,62 +1,122 @@
 {
+  "/home/runner/work/alldev/alldev/manifest.json": {
+    "mtime": 1778834114.6289465,
+    "ast_hash": "2bb2202cc492abc6f2bb6032a12cecc7",
+    "semantic_hash": ""
+  },
+  "/home/runner/work/alldev/alldev/setup.sh": {
+    "mtime": 1778834114.6302106,
+    "ast_hash": "0f42eef7f7e898b4f0eb1925c7f04f11",
+    "semantic_hash": ""
+  },
+  "/home/runner/work/alldev/alldev/dependencies-map.json": {
+    "mtime": 1778834114.6283386,
+    "ast_hash": "1f13c2c3e7d635a00c5c7b83627de281",
+    "semantic_hash": ""
+  },
   "/home/runner/work/alldev/alldev/tests/e2e/exemplo.spec.ts": {
-    "mtime": 1778746992.456695,
-    "hash": "3ff4cba65cfc9887c1861b08e3b7141a"
+    "mtime": 1778834114.6306167,
+    "ast_hash": "3ff4cba65cfc9887c1861b08e3b7141a",
+    "semantic_hash": ""
   },
   "/home/runner/work/alldev/alldev/tests/backend/exemplo.test.ts": {
-    "mtime": 1778746992.456695,
-    "hash": "cac8c7e33d9d5364f2aeb36974b09fe0"
+    "mtime": 1778834114.6306167,
+    "ast_hash": "cac8c7e33d9d5364f2aeb36974b09fe0",
+    "semantic_hash": ""
   },
   "/home/runner/work/alldev/alldev/tests/frontend/exemplo.test.tsx": {
-    "mtime": 1778746992.456695,
-    "hash": "3fea29665d45d1e7ba4c53211b9ea66c"
+    "mtime": 1778834114.6306167,
+    "ast_hash": "3fea29665d45d1e7ba4c53211b9ea66c",
+    "semantic_hash": ""
   },
   "/home/runner/work/alldev/alldev/templates/login-google/backend.ts": {
-    "mtime": 1778746992.4564705,
-    "hash": "82c3a4dc6946a99979b772f95693cba8"
+    "mtime": 1778834114.630396,
+    "ast_hash": "82c3a4dc6946a99979b772f95693cba8",
+    "semantic_hash": ""
   },
   "/home/runner/work/alldev/alldev/templates/login-google/test.spec.ts": {
-    "mtime": 1778746992.4566011,
-    "hash": "52647606ad2a9c7ebe2cb895201cfa3d"
+    "mtime": 1778834114.6305144,
+    "ast_hash": "52647606ad2a9c7ebe2cb895201cfa3d",
+    "semantic_hash": ""
   },
   "/home/runner/work/alldev/alldev/templates/login-google/frontend.tsx": {
-    "mtime": 1778746992.4566011,
-    "hash": "368e86bd6d7dabb31d5bb748e3970ba3"
+    "mtime": 1778834114.6305144,
+    "ast_hash": "368e86bd6d7dabb31d5bb748e3970ba3",
+    "semantic_hash": ""
   },
   "/home/runner/work/alldev/alldev/templates/cadastro-clientes/backend.ts": {
-    "mtime": 1778746992.4564147,
-    "hash": "22e536abd5b5dc55c6f8dc0d70efdcd8"
+    "mtime": 1778834114.630345,
+    "ast_hash": "22e536abd5b5dc55c6f8dc0d70efdcd8",
+    "semantic_hash": ""
   },
   "/home/runner/work/alldev/alldev/templates/cadastro-clientes/test.spec.ts": {
-    "mtime": 1778746992.4564705,
-    "hash": "5540bcfe01ff5d5670ace983646ae6b2"
+    "mtime": 1778834114.630396,
+    "ast_hash": "5540bcfe01ff5d5670ace983646ae6b2",
+    "semantic_hash": ""
   },
   "/home/runner/work/alldev/alldev/templates/cadastro-clientes/frontend.tsx": {
-    "mtime": 1778746992.4564705,
-    "hash": "3107200f9288ea02feef9ade0f0d433d"
+    "mtime": 1778834114.630396,
+    "ast_hash": "3107200f9288ea02feef9ade0f0d433d",
+    "semantic_hash": ""
+  },
+  "/home/runner/work/alldev/alldev/scripts/setup-vps.sh": {
+    "mtime": 1778834114.6302106,
+    "ast_hash": "1b031db06538602bc14f56ef680f188b",
+    "semantic_hash": ""
+  },
+  "/home/runner/work/alldev/alldev/scripts/deploy.sh": {
+    "mtime": 1778834114.6297219,
+    "ast_hash": "ce27e9a583ff33df1200a44b98fe9f13",
+    "semantic_hash": ""
+  },
+  "/home/runner/work/alldev/alldev/scripts/monitor/send-logs.sh": {
+    "mtime": 1778834114.6301174,
+    "ast_hash": "af96598aee7921ae582069b981a89494",
+    "semantic_hash": ""
+  },
+  "/home/runner/work/alldev/alldev/scripts/monitor/setup-monitoring.sh": {
+    "mtime": 1778834114.6302106,
+    "ast_hash": "2509763185f4f8ccee7d1cdeb571b1cf",
+    "semantic_hash": ""
+  },
+  "/home/runner/work/alldev/alldev/scripts/git/push-mirror.sh": {
+    "mtime": 1778834114.6299746,
+    "ast_hash": "ad7e353d709bf62c00ff906a4f762e15",
+    "semantic_hash": ""
+  },
+  "/home/runner/work/alldev/alldev/scripts/git/setup-mirror.sh": {
+    "mtime": 1778834114.6301174,
+    "ast_hash": "f818c01cd67129a5c9bc47265d76cee0",
+    "semantic_hash": ""
   },
   "/home/runner/work/alldev/alldev/README.md": {
-    "mtime": 1778746992.4544187,
-    "hash": "0f1b84c9e49ae5f1ab20a02bb77a39f1"
+    "mtime": 1778834114.6283386,
+    "ast_hash": "0f1b84c9e49ae5f1ab20a02bb77a39f1",
+    "semantic_hash": ""
   },
   "/home/runner/work/alldev/alldev/onboarding.html": {
-    "mtime": 1778746992.454965,
-    "hash": "e0d3e9915bcd79e6f104f6538f8c319d"
+    "mtime": 1778834114.6289465,
+    "ast_hash": "e0d3e9915bcd79e6f104f6538f8c319d",
+    "semantic_hash": ""
   },
   "/home/runner/work/alldev/alldev/openapi.yaml": {
-    "mtime": 1778746992.454965,
-    "hash": "4e17ac78efc22639e012e4e81c228144"
+    "mtime": 1778834114.6289465,
+    "ast_hash": "4e17ac78efc22639e012e4e81c228144",
+    "semantic_hash": ""
   },
   "/home/runner/work/alldev/alldev/CLAUDE.md": {
-    "mtime": 1778746992.4544187,
-    "hash": "0bc440d99ed1dea32be58aca3668b1ab"
+    "mtime": 1778834114.6283386,
+    "ast_hash": "0bc440d99ed1dea32be58aca3668b1ab",
+    "semantic_hash": ""
   },
   "/home/runner/work/alldev/alldev/docs/APRENDIZADOS.md": {
-    "mtime": 1778746992.4544187,
-    "hash": "d5e97d9f0c4359a15f351fe563cb9af6"
+    "mtime": 1778834114.6283386,
+    "ast_hash": "d5e97d9f0c4359a15f351fe563cb9af6",
+    "semantic_hash": ""
   },
   "/home/runner/work/alldev/alldev/docs/HISTORICO.md": {
-    "mtime": 1778746992.4548216,
-    "hash": "b96b80cc4bcc26c196413cdc1ade6cc9"
+    "mtime": 1778834114.6287796,
+    "ast_hash": "b96b80cc4bcc26c196413cdc1ade6cc9",
+    "semantic_hash": ""
   }
 }

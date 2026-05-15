@@ -1,16 +1,16 @@
-# Graph Report - alldev  (2026-05-13)
+# Graph Report - alldev  (2026-05-15)
 
 ## Corpus Check
-- 13 files · ~4,000 words
+- 22 files · ~4,694 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 87 nodes · 78 edges · 17 communities (15 shown, 2 thin omitted)
+- 119 nodes · 101 edges · 25 communities (23 shown, 2 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `e6b9bf74`
+- Built from commit: `5ee46441`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -25,6 +25,7 @@
 - [[_COMMUNITY_Community 7|Community 7]]
 - [[_COMMUNITY_Community 8|Community 8]]
 - [[_COMMUNITY_Community 9|Community 9]]
+- [[_COMMUNITY_Community 17|Community 17]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `ATENCAO CLAUDE - LEIA E OBEDECA ESTE BLOCO ANTES DE QUALQUER OUTRA COISA` - 10 edges
@@ -33,15 +34,15 @@
 4. `🧠 AllDev GPT – Dev Fullstack + DevOps + QA Autônomo` - 6 edges
 5. `10. CHECKLIST DE ENTREGA OBRIGATORIO` - 6 edges
 6. `🧠 AllDev GPT – Dev Fullstack + DevOps + QA Autônomo` - 6 edges
-7. `🚀 Como usar este repositório com ChatGPT` - 4 edges
-8. `3. SQUAD DE IAs (skills aplicaveis)` - 4 edges
-9. `Como usar este repositrio com ChatGPT` - 4 edges
-10. `🚀 Como usar este repositório com ChatGPT` - 4 edges
+7. `clientes` - 5 edges
+8. `api` - 4 edges
+9. `auth` - 4 edges
+10. `auth/google` - 4 edges
 
 ## Surprising Connections (you probably didn't know these)
 - None detected - all connections are within the same source files.
 
-## Communities (17 total, 2 thin omitted)
+## Communities (25 total, 2 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.17
@@ -56,12 +57,12 @@ Cohesion: 0.17
 Nodes (12): ATENCAO CLAUDE - LEIA E OBEDECA ESTE BLOCO ANTES DE QUALQUER OUTRA COISA, Fluxo padrao quando o usuario pede arquivo, Padroes Brasil obrigatorios em cada arquivo gerado, REGRA 0 - VOCE E O LIDER + ORQUESTRADOR DESTE REPO. ATIVO. AGORA., REGRA -1 - O USUARIO E LEIGO. NUNCA PERGUNTE SOBRE PERSONA, SKILL OU CONFIGURACAO., REGRA 1 - SKILLS BASAIS - SEMPRE ON. NAO PERGUNTE. NAO ESCOLHA., REGRA 2.5 - GERACAO DE ARQUIVOS (Excel, PDF, DOCX, PPTX) - SKILLS XLSX/PDF/DOCX/PPTX, REGRA 2 - SKILLS CONDICIONAIS PARA REPO DE DESENVOLVIMENTO (+4 more)
 
 ### Community 3 - "Community 3"
-Cohesion: 0.18
-Nodes (10): 11. REFERENCIAS RAPIDAS, 1 Ative o GitHub Pages, 2 Crie o GPT em [chat.openai.com/gpts/editor](https://chat.openai.com/gpts/editor), 9. APRENDIZADO E ATUALIZACAO CONTINUA, AllDev GPT  Dev Fullstack + DevOps + QA Autnomo, Como usar este repositrio com ChatGPT, Estruturas centrais (God Nodes pelo Graphify), O que est aqui (+2 more)
+Cohesion: 0.12
+Nodes (16): 10. CHECKLIST DE ENTREGA OBRIGATORIO, 11. REFERENCIAS RAPIDAS, 1 Ative o GitHub Pages, 2 Crie o GPT em [chat.openai.com/gpts/editor](https://chat.openai.com/gpts/editor), 9. APRENDIZADO E ATUALIZACAO CONTINUA, AllDev GPT  Dev Fullstack + DevOps + QA Autnomo, Codigo, Como usar este repositrio com ChatGPT (+8 more)
 
 ### Community 4 - "Community 4"
-Cohesion: 0.33
-Nodes (6): 10. CHECKLIST DE ENTREGA OBRIGATORIO, Codigo, Deploy, Documentacao, Sinalizar conclusao, Testes
+Cohesion: 0.13
+Nodes (14): api, auth, type, url, authorizationUrl, instructions, type, contact_email (+6 more)
 
 ### Community 5 - "Community 5"
 Cohesion: 0.4
@@ -75,21 +76,29 @@ Nodes (4): Aprendizados, Aprendizados - fmunizm/alldev, Como usar, YYYY-MM-DD - 
 Cohesion: 0.4
 Nodes (4): Como usar, Historico, Historico de Sessoes - fmunizm/alldev, YYYY-MM-DD - vX.Y.Z - Titulo da sessao
 
+### Community 17 - "Community 17"
+Cohesion: 0.2
+Nodes (9): auth/google, components, routes, tests, clientes, components, database, routes (+1 more)
+
 ## Knowledge Gaps
-- **47 isolated node(s):** `router`, `router`, `prisma`, `📦 O que está aqui`, `👤 Sobre este repositório` (+42 more)
+- **66 isolated node(s):** `name`, `description`, `instructions`, `version`, `contact_email` (+61 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **2 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `AllDev GPT  Dev Fullstack + DevOps + QA Autnomo` connect `Community 3` to `Community 4`, `Community 5`?**
-  _High betweenness centrality (0.190) - this node is a cross-community bridge._
+- **Why does `AllDev GPT  Dev Fullstack + DevOps + QA Autnomo` connect `Community 3` to `Community 5`?**
+  _High betweenness centrality (0.101) - this node is a cross-community bridge._
 - **Why does `CLAUDE.md - fmunizm/alldev` connect `Community 1` to `Community 3`?**
-  _High betweenness centrality (0.140) - this node is a cross-community bridge._
+  _High betweenness centrality (0.074) - this node is a cross-community bridge._
 - **Why does `ATENCAO CLAUDE - LEIA E OBEDECA ESTE BLOCO ANTES DE QUALQUER OUTRA COISA` connect `Community 2` to `Community 3`?**
-  _High betweenness centrality (0.123) - this node is a cross-community bridge._
-- **What connects `router`, `router`, `prisma` to the rest of the system?**
-  _47 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _High betweenness centrality (0.065) - this node is a cross-community bridge._
+- **What connects `name`, `description`, `instructions` to the rest of the system?**
+  _66 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 1` be split into smaller, more focused modules?**
   _Cohesion score 0.14 - nodes in this community are weakly interconnected._
+- **Should `Community 3` be split into smaller, more focused modules?**
+  _Cohesion score 0.12 - nodes in this community are weakly interconnected._
+- **Should `Community 4` be split into smaller, more focused modules?**
+  _Cohesion score 0.13 - nodes in this community are weakly interconnected._
