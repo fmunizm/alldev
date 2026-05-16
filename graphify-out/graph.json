@@ -4,6 +4,105 @@
   "graph": {},
   "nodes": [
     {
+      "label": "setup.sh",
+      "file_type": "code",
+      "source_file": "setup.sh",
+      "source_location": "L1",
+      "id": "setup_sh",
+      "community": 24,
+      "norm_label": "setup.sh"
+    },
+    {
+      "label": "dependencies-map.json",
+      "file_type": "code",
+      "source_file": "dependencies-map.json",
+      "source_location": "L1",
+      "id": "dependencies_map_json",
+      "community": 17,
+      "norm_label": "dependencies-map.json"
+    },
+    {
+      "label": "clientes",
+      "file_type": "code",
+      "source_file": "dependencies-map.json",
+      "source_location": "L2",
+      "id": "alldev_dependencies_map_clientes",
+      "community": 17,
+      "norm_label": "clientes"
+    },
+    {
+      "label": "routes",
+      "file_type": "code",
+      "source_file": "dependencies-map.json",
+      "source_location": "L3",
+      "id": "alldev_dependencies_map_clientes_routes",
+      "community": 17,
+      "norm_label": "routes"
+    },
+    {
+      "label": "components",
+      "file_type": "code",
+      "source_file": "dependencies-map.json",
+      "source_location": "L6",
+      "id": "alldev_dependencies_map_clientes_components",
+      "community": 17,
+      "norm_label": "components"
+    },
+    {
+      "label": "tests",
+      "file_type": "code",
+      "source_file": "dependencies-map.json",
+      "source_location": "L9",
+      "id": "alldev_dependencies_map_clientes_tests",
+      "community": 17,
+      "norm_label": "tests"
+    },
+    {
+      "label": "database",
+      "file_type": "code",
+      "source_file": "dependencies-map.json",
+      "source_location": "L13",
+      "id": "alldev_dependencies_map_clientes_database",
+      "community": 17,
+      "norm_label": "database"
+    },
+    {
+      "label": "auth/google",
+      "file_type": "code",
+      "source_file": "dependencies-map.json",
+      "source_location": "L17",
+      "id": "alldev_dependencies_map_auth_google",
+      "community": 17,
+      "norm_label": "auth/google"
+    },
+    {
+      "label": "routes",
+      "file_type": "code",
+      "source_file": "dependencies-map.json",
+      "source_location": "L18",
+      "id": "alldev_dependencies_map_auth_google_routes",
+      "community": 17,
+      "norm_label": "routes"
+    },
+    {
+      "label": "components",
+      "file_type": "code",
+      "source_file": "dependencies-map.json",
+      "source_location": "L21",
+      "id": "alldev_dependencies_map_auth_google_components",
+      "community": 17,
+      "norm_label": "components"
+    },
+    {
+      "label": "tests",
+      "file_type": "code",
+      "source_file": "dependencies-map.json",
+      "source_location": "L24",
+      "id": "alldev_dependencies_map_auth_google_tests",
+      "community": 17,
+      "norm_label": "tests"
+    },
+    {
       "label": "manifest.json",
       "file_type": "code",
       "source_file": "manifest.json",
@@ -139,175 +238,13 @@
       "norm_label": "logo_url"
     },
     {
-      "label": "setup.sh",
+      "label": "ai-plugin.json",
       "file_type": "code",
-      "source_file": "setup.sh",
+      "source_file": ".well-known/ai-plugin.json",
       "source_location": "L1",
-      "id": "setup_sh",
-      "community": 24,
-      "norm_label": "setup.sh"
-    },
-    {
-      "label": "dependencies-map.json",
-      "file_type": "code",
-      "source_file": "dependencies-map.json",
-      "source_location": "L1",
-      "id": "dependencies_map_json",
-      "community": 17,
-      "norm_label": "dependencies-map.json"
-    },
-    {
-      "label": "clientes",
-      "file_type": "code",
-      "source_file": "dependencies-map.json",
-      "source_location": "L2",
-      "id": "alldev_dependencies_map_clientes",
-      "community": 17,
-      "norm_label": "clientes"
-    },
-    {
-      "label": "routes",
-      "file_type": "code",
-      "source_file": "dependencies-map.json",
-      "source_location": "L3",
-      "id": "alldev_dependencies_map_clientes_routes",
-      "community": 17,
-      "norm_label": "routes"
-    },
-    {
-      "label": "components",
-      "file_type": "code",
-      "source_file": "dependencies-map.json",
-      "source_location": "L6",
-      "id": "alldev_dependencies_map_clientes_components",
-      "community": 17,
-      "norm_label": "components"
-    },
-    {
-      "label": "tests",
-      "file_type": "code",
-      "source_file": "dependencies-map.json",
-      "source_location": "L9",
-      "id": "alldev_dependencies_map_clientes_tests",
-      "community": 17,
-      "norm_label": "tests"
-    },
-    {
-      "label": "database",
-      "file_type": "code",
-      "source_file": "dependencies-map.json",
-      "source_location": "L13",
-      "id": "alldev_dependencies_map_clientes_database",
-      "community": 17,
-      "norm_label": "database"
-    },
-    {
-      "label": "auth/google",
-      "file_type": "code",
-      "source_file": "dependencies-map.json",
-      "source_location": "L17",
-      "id": "alldev_dependencies_map_auth_google",
-      "community": 17,
-      "norm_label": "auth/google"
-    },
-    {
-      "label": "routes",
-      "file_type": "code",
-      "source_file": "dependencies-map.json",
-      "source_location": "L18",
-      "id": "alldev_dependencies_map_auth_google_routes",
-      "community": 17,
-      "norm_label": "routes"
-    },
-    {
-      "label": "components",
-      "file_type": "code",
-      "source_file": "dependencies-map.json",
-      "source_location": "L21",
-      "id": "alldev_dependencies_map_auth_google_components",
-      "community": 17,
-      "norm_label": "components"
-    },
-    {
-      "label": "tests",
-      "file_type": "code",
-      "source_file": "dependencies-map.json",
-      "source_location": "L24",
-      "id": "alldev_dependencies_map_auth_google_tests",
-      "community": 17,
-      "norm_label": "tests"
-    },
-    {
-      "label": "exemplo.spec.ts",
-      "file_type": "code",
-      "source_file": "tests/e2e/exemplo.spec.ts",
-      "source_location": "L1",
-      "id": "tests_e2e_exemplo_spec_ts",
-      "community": 12,
-      "norm_label": "exemplo.spec.ts"
-    },
-    {
-      "label": "exemplo.test.ts",
-      "file_type": "code",
-      "source_file": "tests/backend/exemplo.test.ts",
-      "source_location": "L1",
-      "id": "tests_backend_exemplo_test_ts",
-      "community": 13,
-      "norm_label": "exemplo.test.ts"
-    },
-    {
-      "label": "exemplo.test.tsx",
-      "file_type": "code",
-      "source_file": "tests/frontend/exemplo.test.tsx",
-      "source_location": "L1",
-      "id": "tests_frontend_exemplo_test_tsx",
-      "community": 14,
-      "norm_label": "exemplo.test.tsx"
-    },
-    {
-      "label": "backend.ts",
-      "file_type": "code",
-      "source_file": "templates/login-google/backend.ts",
-      "source_location": "L1",
-      "id": "templates_login_google_backend_ts",
-      "community": 9,
-      "norm_label": "backend.ts"
-    },
-    {
-      "label": "router",
-      "file_type": "code",
-      "source_file": "templates/login-google/backend.ts",
-      "source_location": "L4",
-      "id": "login_google_backend_router",
-      "community": 9,
-      "norm_label": "router"
-    },
-    {
-      "label": "test.spec.ts",
-      "file_type": "code",
-      "source_file": "templates/login-google/test.spec.ts",
-      "source_location": "L1",
-      "id": "templates_login_google_test_spec_ts",
-      "community": 15,
-      "norm_label": "test.spec.ts"
-    },
-    {
-      "label": "frontend.tsx",
-      "file_type": "code",
-      "source_file": "templates/login-google/frontend.tsx",
-      "source_location": "L1",
-      "id": "templates_login_google_frontend_tsx",
-      "community": 10,
-      "norm_label": "frontend.tsx"
-    },
-    {
-      "label": "LoginGoogle()",
-      "file_type": "code",
-      "source_file": "templates/login-google/frontend.tsx",
-      "source_location": "L3",
-      "id": "login_google_frontend_logingoogle",
-      "community": 10,
-      "norm_label": "logingoogle()"
+      "id": "well_known_ai_plugin_json",
+      "community": 28,
+      "norm_label": "ai-plugin.json"
     },
     {
       "label": "backend.ts",
@@ -337,15 +274,6 @@
       "norm_label": "prisma"
     },
     {
-      "label": "test.spec.ts",
-      "file_type": "code",
-      "source_file": "templates/cadastro-clientes/test.spec.ts",
-      "source_location": "L1",
-      "id": "templates_cadastro_clientes_test_spec_ts",
-      "community": 16,
-      "norm_label": "test.spec.ts"
-    },
-    {
       "label": "frontend.tsx",
       "file_type": "code",
       "source_file": "templates/cadastro-clientes/frontend.tsx",
@@ -362,6 +290,87 @@
       "id": "cadastro_clientes_frontend_cadastrocliente",
       "community": 11,
       "norm_label": "cadastrocliente()"
+    },
+    {
+      "label": "test.spec.ts",
+      "file_type": "code",
+      "source_file": "templates/cadastro-clientes/test.spec.ts",
+      "source_location": "L1",
+      "id": "templates_cadastro_clientes_test_spec_ts",
+      "community": 16,
+      "norm_label": "test.spec.ts"
+    },
+    {
+      "label": "backend.ts",
+      "file_type": "code",
+      "source_file": "templates/login-google/backend.ts",
+      "source_location": "L1",
+      "id": "templates_login_google_backend_ts",
+      "community": 9,
+      "norm_label": "backend.ts"
+    },
+    {
+      "label": "router",
+      "file_type": "code",
+      "source_file": "templates/login-google/backend.ts",
+      "source_location": "L4",
+      "id": "login_google_backend_router",
+      "community": 9,
+      "norm_label": "router"
+    },
+    {
+      "label": "frontend.tsx",
+      "file_type": "code",
+      "source_file": "templates/login-google/frontend.tsx",
+      "source_location": "L1",
+      "id": "templates_login_google_frontend_tsx",
+      "community": 10,
+      "norm_label": "frontend.tsx"
+    },
+    {
+      "label": "LoginGoogle()",
+      "file_type": "code",
+      "source_file": "templates/login-google/frontend.tsx",
+      "source_location": "L3",
+      "id": "login_google_frontend_logingoogle",
+      "community": 10,
+      "norm_label": "logingoogle()"
+    },
+    {
+      "label": "test.spec.ts",
+      "file_type": "code",
+      "source_file": "templates/login-google/test.spec.ts",
+      "source_location": "L1",
+      "id": "templates_login_google_test_spec_ts",
+      "community": 15,
+      "norm_label": "test.spec.ts"
+    },
+    {
+      "label": "exemplo.spec.ts",
+      "file_type": "code",
+      "source_file": "tests/e2e/exemplo.spec.ts",
+      "source_location": "L1",
+      "id": "tests_e2e_exemplo_spec_ts",
+      "community": 12,
+      "norm_label": "exemplo.spec.ts"
+    },
+    {
+      "label": "exemplo.test.tsx",
+      "file_type": "code",
+      "source_file": "tests/frontend/exemplo.test.tsx",
+      "source_location": "L1",
+      "id": "tests_frontend_exemplo_test_tsx",
+      "community": 14,
+      "norm_label": "exemplo.test.tsx"
+    },
+    {
+      "label": "exemplo.test.ts",
+      "file_type": "code",
+      "source_file": "tests/backend/exemplo.test.ts",
+      "source_location": "L1",
+      "id": "tests_backend_exemplo_test_ts",
+      "community": 13,
+      "norm_label": "exemplo.test.ts"
     },
     {
       "label": "setup-vps.sh",
@@ -382,24 +391,6 @@
       "norm_label": "deploy.sh"
     },
     {
-      "label": "send-logs.sh",
-      "file_type": "code",
-      "source_file": "scripts/monitor/send-logs.sh",
-      "source_location": "L1",
-      "id": "scripts_monitor_send_logs_sh",
-      "community": 21,
-      "norm_label": "send-logs.sh"
-    },
-    {
-      "label": "setup-monitoring.sh",
-      "file_type": "code",
-      "source_file": "scripts/monitor/setup-monitoring.sh",
-      "source_location": "L1",
-      "id": "scripts_monitor_setup_monitoring_sh",
-      "community": 22,
-      "norm_label": "setup-monitoring.sh"
-    },
-    {
       "label": "push-mirror.sh",
       "file_type": "code",
       "source_file": "scripts/git/push-mirror.sh",
@@ -418,94 +409,22 @@
       "norm_label": "setup-mirror.sh"
     },
     {
-      "label": "README.md",
-      "file_type": "document",
-      "source_file": "README.md",
+      "label": "send-logs.sh",
+      "file_type": "code",
+      "source_file": "scripts/monitor/send-logs.sh",
       "source_location": "L1",
-      "id": "readme_md",
-      "community": 0,
-      "norm_label": "readme.md"
+      "id": "scripts_monitor_send_logs_sh",
+      "community": 21,
+      "norm_label": "send-logs.sh"
     },
     {
-      "label": "\ud83e\udde0 AllDev GPT \u2013 Dev Fullstack + DevOps + QA Aut\u00f4nomo",
-      "file_type": "document",
-      "source_file": "README.md",
+      "label": "setup-monitoring.sh",
+      "file_type": "code",
+      "source_file": "scripts/monitor/setup-monitoring.sh",
       "source_location": "L1",
-      "id": "alldev_readme_alldev_gpt_dev_fullstack_devops_qa_aut\u00f4nomo",
-      "community": 0,
-      "norm_label": "\ud83e\udde0 alldev gpt \u2013 dev fullstack + devops + qa autonomo"
-    },
-    {
-      "label": "\ud83d\udce6 O que est\u00e1 aqui",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L7",
-      "id": "alldev_readme_o_que_est\u00e1_aqui",
-      "community": 0,
-      "norm_label": "\ud83d\udce6 o que esta aqui"
-    },
-    {
-      "label": "\ud83d\ude80 Como usar este reposit\u00f3rio com ChatGPT",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L19",
-      "id": "alldev_readme_como_usar_este_reposit\u00f3rio_com_chatgpt",
-      "community": 0,
-      "norm_label": "\ud83d\ude80 como usar este repositorio com chatgpt"
-    },
-    {
-      "label": "1\ufe0f\u20e3 Ative o GitHub Pages",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L21",
-      "id": "alldev_readme_1_ative_o_github_pages",
-      "community": 0,
-      "norm_label": "1\ufe0f\u20e3 ative o github pages"
-    },
-    {
-      "label": "2\ufe0f\u20e3 Crie o GPT em [chat.openai.com/gpts/editor](https://chat.openai.com/gpts/editor)",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L31",
-      "id": "alldev_readme_2_crie_o_gpt_em_chat_openai_com_gpts_editor_https_chat_openai_com_gpts_editor",
-      "community": 0,
-      "norm_label": "2\ufe0f\u20e3 crie o gpt em [chat.openai.com/gpts/editor](https://chat.openai.com/gpts/editor)"
-    },
-    {
-      "label": "3\ufe0f\u20e3 O GPT pode:",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L45",
-      "id": "alldev_readme_3_o_gpt_pode",
-      "community": 0,
-      "norm_label": "3\ufe0f\u20e3 o gpt pode:"
-    },
-    {
-      "label": "\ud83d\udc64 Sobre este reposit\u00f3rio",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L62",
-      "id": "alldev_readme_sobre_este_reposit\u00f3rio",
-      "community": 0,
-      "norm_label": "\ud83d\udc64 sobre este repositorio"
-    },
-    {
-      "label": "\ud83d\udd12 Seguran\u00e7a",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L69",
-      "id": "alldev_readme_seguran\u00e7a",
-      "community": 0,
-      "norm_label": "\ud83d\udd12 seguranca"
-    },
-    {
-      "label": "\u2709\ufe0f Contato",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L77",
-      "id": "alldev_readme_contato",
-      "community": 0,
-      "norm_label": "\u2709\ufe0f contato"
+      "id": "scripts_monitor_setup_monitoring_sh",
+      "community": 22,
+      "norm_label": "setup-monitoring.sh"
     },
     {
       "label": "CLAUDE.md",
@@ -810,7 +729,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L339",
       "id": "alldev_claude_7_estrutura_do_repo",
-      "community": 5,
+      "community": 3,
       "norm_label": "7. estrutura do repo"
     },
     {
@@ -819,7 +738,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L341",
       "id": "alldev_claude_diretorios_principais",
-      "community": 5,
+      "community": 3,
       "norm_label": "diretorios principais"
     },
     {
@@ -828,7 +747,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L343",
       "id": "alldev_claude_codeblock_1",
-      "community": 5,
+      "community": 3,
       "norm_label": "code:block1 (.claude)"
     },
     {
@@ -837,7 +756,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L354",
       "id": "alldev_claude_arquivos_da_raiz_amostra",
-      "community": 5,
+      "community": 3,
       "norm_label": "arquivos da raiz (amostra)"
     },
     {
@@ -846,7 +765,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L356",
       "id": "alldev_claude_codeblock_2",
-      "community": 5,
+      "community": 3,
       "norm_label": "code:block2 (.gitignore)"
     },
     {
@@ -882,7 +801,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L405",
       "id": "alldev_claude_10_checklist_de_entrega_obrigatorio",
-      "community": 3,
+      "community": 26,
       "norm_label": "10. checklist de entrega obrigatorio"
     },
     {
@@ -891,7 +810,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L409",
       "id": "alldev_claude_codigo",
-      "community": 3,
+      "community": 26,
       "norm_label": "codigo"
     },
     {
@@ -900,7 +819,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L417",
       "id": "alldev_claude_testes",
-      "community": 3,
+      "community": 26,
       "norm_label": "testes"
     },
     {
@@ -909,7 +828,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L425",
       "id": "alldev_claude_documentacao",
-      "community": 3,
+      "community": 26,
       "norm_label": "documentacao"
     },
     {
@@ -918,7 +837,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L433",
       "id": "alldev_claude_deploy",
-      "community": 3,
+      "community": 26,
       "norm_label": "deploy"
     },
     {
@@ -927,7 +846,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L441",
       "id": "alldev_claude_sinalizar_conclusao",
-      "community": 3,
+      "community": 26,
       "norm_label": "sinalizar conclusao"
     },
     {
@@ -938,6 +857,96 @@
       "id": "alldev_claude_11_referencias_rapidas",
       "community": 3,
       "norm_label": "11. referencias rapidas"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "id": "readme_md",
+      "community": 0,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "\ud83e\udde0 AllDev GPT \u2013 Dev Fullstack + DevOps + QA Aut\u00f4nomo",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "id": "alldev_readme_alldev_gpt_dev_fullstack_devops_qa_aut\u00f4nomo",
+      "community": 0,
+      "norm_label": "\ud83e\udde0 alldev gpt \u2013 dev fullstack + devops + qa autonomo"
+    },
+    {
+      "label": "\ud83d\udce6 O que est\u00e1 aqui",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L7",
+      "id": "alldev_readme_o_que_est\u00e1_aqui",
+      "community": 0,
+      "norm_label": "\ud83d\udce6 o que esta aqui"
+    },
+    {
+      "label": "\ud83d\ude80 Como usar este reposit\u00f3rio com ChatGPT",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L19",
+      "id": "alldev_readme_como_usar_este_reposit\u00f3rio_com_chatgpt",
+      "community": 0,
+      "norm_label": "\ud83d\ude80 como usar este repositorio com chatgpt"
+    },
+    {
+      "label": "1\ufe0f\u20e3 Ative o GitHub Pages",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L21",
+      "id": "alldev_readme_1_ative_o_github_pages",
+      "community": 0,
+      "norm_label": "1\ufe0f\u20e3 ative o github pages"
+    },
+    {
+      "label": "2\ufe0f\u20e3 Crie o GPT em [chat.openai.com/gpts/editor](https://chat.openai.com/gpts/editor)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L31",
+      "id": "alldev_readme_2_crie_o_gpt_em_chat_openai_com_gpts_editor_https_chat_openai_com_gpts_editor",
+      "community": 0,
+      "norm_label": "2\ufe0f\u20e3 crie o gpt em [chat.openai.com/gpts/editor](https://chat.openai.com/gpts/editor)"
+    },
+    {
+      "label": "3\ufe0f\u20e3 O GPT pode:",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L45",
+      "id": "alldev_readme_3_o_gpt_pode",
+      "community": 0,
+      "norm_label": "3\ufe0f\u20e3 o gpt pode:"
+    },
+    {
+      "label": "\ud83d\udc64 Sobre este reposit\u00f3rio",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L62",
+      "id": "alldev_readme_sobre_este_reposit\u00f3rio",
+      "community": 0,
+      "norm_label": "\ud83d\udc64 sobre este repositorio"
+    },
+    {
+      "label": "\ud83d\udd12 Seguran\u00e7a",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L69",
+      "id": "alldev_readme_seguran\u00e7a",
+      "community": 0,
+      "norm_label": "\ud83d\udd12 seguranca"
+    },
+    {
+      "label": "\u2709\ufe0f Contato",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L77",
+      "id": "alldev_readme_contato",
+      "community": 0,
+      "norm_label": "\u2709\ufe0f contato"
     },
     {
       "label": "APRENDIZADOS.md",
@@ -1030,6 +1039,276 @@
       "norm_label": "yyyy-mm-dd - vx.y.z - titulo da sessao"
     },
     {
+      "label": "skills.md",
+      "file_type": "document",
+      "source_file": ".claude/skills.md",
+      "source_location": "L1",
+      "id": "claude_skills_md",
+      "community": 27,
+      "norm_label": "skills.md"
+    },
+    {
+      "label": "Skills aplicaveis (Shell / Outros)",
+      "file_type": "document",
+      "source_file": ".claude/skills.md",
+      "source_location": "L1",
+      "id": "claude_skills_skills_aplicaveis_shell_outros",
+      "community": 27,
+      "norm_label": "skills aplicaveis (shell / outros)"
+    },
+    {
+      "label": "Basais (sempre)",
+      "file_type": "document",
+      "source_file": ".claude/skills.md",
+      "source_location": "L3",
+      "id": "claude_skills_basais_sempre",
+      "community": 27,
+      "norm_label": "basais (sempre)"
+    },
+    {
+      "label": "Padroes",
+      "file_type": "document",
+      "source_file": ".claude/skills.md",
+      "source_location": "L10",
+      "id": "claude_skills_padroes",
+      "community": 27,
+      "norm_label": "padroes"
+    },
+    {
+      "label": "prompts.md",
+      "file_type": "document",
+      "source_file": ".claude/prompts.md",
+      "source_location": "L1",
+      "id": "claude_prompts_md",
+      "community": 5,
+      "norm_label": "prompts.md"
+    },
+    {
+      "label": "Prompts e Templates - fmunizm/alldev",
+      "file_type": "document",
+      "source_file": ".claude/prompts.md",
+      "source_location": "L1",
+      "id": "claude_prompts_prompts_e_templates_fmunizm_alldev",
+      "community": 5,
+      "norm_label": "prompts e templates - fmunizm/alldev"
+    },
+    {
+      "label": "Template 1: Comeco de sessao",
+      "file_type": "document",
+      "source_file": ".claude/prompts.md",
+      "source_location": "L6",
+      "id": "claude_prompts_template_1_comeco_de_sessao",
+      "community": 5,
+      "norm_label": "template 1: comeco de sessao"
+    },
+    {
+      "label": "code:block1 (Trabalhando em fmunizm/alldev. Como Engenheiro DevOps + Tool)",
+      "file_type": "document",
+      "source_file": ".claude/prompts.md",
+      "source_location": "L8",
+      "id": "claude_prompts_codeblock_1",
+      "community": 5,
+      "norm_label": "code:block1 (trabalhando em fmunizm/alldev. como engenheiro devops + tool)"
+    },
+    {
+      "label": "Template 2: Implementacao de feature",
+      "file_type": "document",
+      "source_file": ".claude/prompts.md",
+      "source_location": "L17",
+      "id": "claude_prompts_template_2_implementacao_de_feature",
+      "community": 5,
+      "norm_label": "template 2: implementacao de feature"
+    },
+    {
+      "label": "code:block2 (Feature nova em fmunizm/alldev: <DESCRICAO>)",
+      "file_type": "document",
+      "source_file": ".claude/prompts.md",
+      "source_location": "L19",
+      "id": "claude_prompts_codeblock_2",
+      "community": 5,
+      "norm_label": "code:block2 (feature nova em fmunizm/alldev: <descricao>)"
+    },
+    {
+      "label": "Template 3: Bug fix",
+      "file_type": "document",
+      "source_file": ".claude/prompts.md",
+      "source_location": "L34",
+      "id": "claude_prompts_template_3_bug_fix",
+      "community": 5,
+      "norm_label": "template 3: bug fix"
+    },
+    {
+      "label": "code:block3 (Bug em fmunizm/alldev: <DESCRICAO + STACK TRACE / SCREENSHOT)",
+      "file_type": "document",
+      "source_file": ".claude/prompts.md",
+      "source_location": "L36",
+      "id": "claude_prompts_codeblock_3",
+      "community": 5,
+      "norm_label": "code:block3 (bug em fmunizm/alldev: <descricao + stack trace / screenshot)"
+    },
+    {
+      "label": "Template 4: Auditoria/revisao",
+      "file_type": "document",
+      "source_file": ".claude/prompts.md",
+      "source_location": "L48",
+      "id": "claude_prompts_template_4_auditoria_revisao",
+      "community": 5,
+      "norm_label": "template 4: auditoria/revisao"
+    },
+    {
+      "label": "code:block4 (Auditoria em fmunizm/alldev: <ESCOPO>)",
+      "file_type": "document",
+      "source_file": ".claude/prompts.md",
+      "source_location": "L50",
+      "id": "claude_prompts_codeblock_4",
+      "community": 5,
+      "norm_label": "code:block4 (auditoria em fmunizm/alldev: <escopo>)"
+    },
+    {
+      "label": "Template 5: Deploy e validacao",
+      "file_type": "document",
+      "source_file": ".claude/prompts.md",
+      "source_location": "L63",
+      "id": "claude_prompts_template_5_deploy_e_validacao",
+      "community": 5,
+      "norm_label": "template 5: deploy e validacao"
+    },
+    {
+      "label": "code:block5 (Deploy em fmunizm/alldev: versao <X.Y.Z>)",
+      "file_type": "document",
+      "source_file": ".claude/prompts.md",
+      "source_location": "L65",
+      "id": "claude_prompts_codeblock_5",
+      "community": 5,
+      "norm_label": "code:block5 (deploy em fmunizm/alldev: versao <x.y.z>)"
+    },
+    {
+      "label": "Template 7: Atualizacao de skills",
+      "file_type": "document",
+      "source_file": ".claude/prompts.md",
+      "source_location": "L80",
+      "id": "claude_prompts_template_7_atualizacao_de_skills",
+      "community": 5,
+      "norm_label": "template 7: atualizacao de skills"
+    },
+    {
+      "label": "code:block6 (Descobri novo padrao em fmunizm/alldev que vale virar skill.)",
+      "file_type": "document",
+      "source_file": ".claude/prompts.md",
+      "source_location": "L82",
+      "id": "claude_prompts_codeblock_6",
+      "community": 5,
+      "norm_label": "code:block6 (descobri novo padrao em fmunizm/alldev que vale virar skill.)"
+    },
+    {
+      "label": "orquestrador.md",
+      "file_type": "document",
+      "source_file": ".claude/orquestrador.md",
+      "source_location": "L1",
+      "id": "claude_orquestrador_md",
+      "community": 25,
+      "norm_label": "orquestrador.md"
+    },
+    {
+      "label": "Orquestrador - fmunizm/alldev",
+      "file_type": "document",
+      "source_file": ".claude/orquestrador.md",
+      "source_location": "L1",
+      "id": "claude_orquestrador_orquestrador_fmunizm_alldev",
+      "community": 25,
+      "norm_label": "orquestrador - fmunizm/alldev"
+    },
+    {
+      "label": "Persona",
+      "file_type": "document",
+      "source_file": ".claude/orquestrador.md",
+      "source_location": "L3",
+      "id": "claude_orquestrador_persona",
+      "community": 25,
+      "norm_label": "persona"
+    },
+    {
+      "label": "Missao",
+      "file_type": "document",
+      "source_file": ".claude/orquestrador.md",
+      "source_location": "L7",
+      "id": "claude_orquestrador_missao",
+      "community": 25,
+      "norm_label": "missao"
+    },
+    {
+      "label": "Dominio de atuacao",
+      "file_type": "document",
+      "source_file": ".claude/orquestrador.md",
+      "source_location": "L11",
+      "id": "claude_orquestrador_dominio_de_atuacao",
+      "community": 25,
+      "norm_label": "dominio de atuacao"
+    },
+    {
+      "label": "Stack",
+      "file_type": "document",
+      "source_file": ".claude/orquestrador.md",
+      "source_location": "L15",
+      "id": "claude_orquestrador_stack",
+      "community": 25,
+      "norm_label": "stack"
+    },
+    {
+      "label": "Criticidade",
+      "file_type": "document",
+      "source_file": ".claude/orquestrador.md",
+      "source_location": "L19",
+      "id": "claude_orquestrador_criticidade",
+      "community": 25,
+      "norm_label": "criticidade"
+    },
+    {
+      "label": "Squad sob sua coordenacao",
+      "file_type": "document",
+      "source_file": ".claude/orquestrador.md",
+      "source_location": "L23",
+      "id": "claude_orquestrador_squad_sob_sua_coordenacao",
+      "community": 25,
+      "norm_label": "squad sob sua coordenacao"
+    },
+    {
+      "label": "Sempre disponiveis (basais)",
+      "file_type": "document",
+      "source_file": ".claude/orquestrador.md",
+      "source_location": "L25",
+      "id": "claude_orquestrador_sempre_disponiveis_basais",
+      "community": 25,
+      "norm_label": "sempre disponiveis (basais)"
+    },
+    {
+      "label": "Triggers de skills (quando aplicar cada uma)",
+      "file_type": "document",
+      "source_file": ".claude/orquestrador.md",
+      "source_location": "L33",
+      "id": "claude_orquestrador_triggers_de_skills_quando_aplicar_cada_uma",
+      "community": 25,
+      "norm_label": "triggers de skills (quando aplicar cada uma)"
+    },
+    {
+      "label": "Decisoes que voce (orquestrador) toma",
+      "file_type": "document",
+      "source_file": ".claude/orquestrador.md",
+      "source_location": "L42",
+      "id": "claude_orquestrador_decisoes_que_voce_orquestrador_toma",
+      "community": 25,
+      "norm_label": "decisoes que voce (orquestrador) toma"
+    },
+    {
+      "label": "Decisoes que NAO sao suas",
+      "file_type": "document",
+      "source_file": ".claude/orquestrador.md",
+      "source_location": "L51",
+      "id": "claude_orquestrador_decisoes_que_nao_sao_suas",
+      "community": 25,
+      "norm_label": "decisoes que nao sao suas"
+    },
+    {
       "label": "\ud83e\udde0 AllDev GPT \u2013 Dev Fullstack + DevOps + QA Aut\u00f4nomo",
       "file_type": "document",
       "source_file": "README.md",
@@ -1079,152 +1358,12 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "manifest.json",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "manifest_json",
-      "target": "alldev_manifest_name",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "manifest.json",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "manifest_json",
-      "target": "alldev_manifest_description",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "manifest.json",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "manifest_json",
-      "target": "alldev_manifest_instructions",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "manifest.json",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "manifest_json",
-      "target": "alldev_manifest_version",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "manifest.json",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "manifest_json",
-      "target": "alldev_manifest_contact_email",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "manifest.json",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "manifest_json",
-      "target": "alldev_manifest_legal_info_url",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "manifest.json",
-      "source_location": "L8",
-      "weight": 1.0,
-      "source": "manifest_json",
-      "target": "alldev_manifest_api",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "manifest.json",
-      "source_location": "L17",
-      "weight": 1.0,
-      "source": "manifest_json",
-      "target": "alldev_manifest_logo_url",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "manifest.json",
-      "source_location": "L9",
-      "weight": 1.0,
-      "source": "alldev_manifest_api",
-      "target": "alldev_manifest_api_type",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "manifest.json",
-      "source_location": "L10",
-      "weight": 1.0,
-      "source": "alldev_manifest_api",
-      "target": "alldev_manifest_api_url",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "manifest.json",
-      "source_location": "L11",
-      "weight": 1.0,
-      "source": "alldev_manifest_api",
-      "target": "alldev_manifest_api_auth",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "manifest.json",
-      "source_location": "L12",
-      "weight": 1.0,
-      "source": "alldev_manifest_api_auth",
-      "target": "alldev_manifest_auth_type",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "manifest.json",
-      "source_location": "L13",
-      "weight": 1.0,
-      "source": "alldev_manifest_api_auth",
-      "target": "alldev_manifest_auth_authorizationurl",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "manifest.json",
-      "source_location": "L14",
-      "weight": 1.0,
-      "source": "alldev_manifest_api_auth",
-      "target": "alldev_manifest_auth_instructions",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "dependencies-map.json",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "dependencies_map_json",
-      "target": "alldev_dependencies_map_clientes",
-      "confidence_score": 1.0
+      "target": "alldev_dependencies_map_clientes"
     },
     {
       "relation": "contains",
@@ -1232,9 +1371,9 @@
       "source_file": "dependencies-map.json",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "dependencies_map_json",
-      "target": "alldev_dependencies_map_auth_google",
-      "confidence_score": 1.0
+      "target": "alldev_dependencies_map_auth_google"
     },
     {
       "relation": "contains",
@@ -1242,9 +1381,9 @@
       "source_file": "dependencies-map.json",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "alldev_dependencies_map_clientes",
-      "target": "alldev_dependencies_map_clientes_routes",
-      "confidence_score": 1.0
+      "target": "alldev_dependencies_map_clientes_routes"
     },
     {
       "relation": "contains",
@@ -1252,9 +1391,9 @@
       "source_file": "dependencies-map.json",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "alldev_dependencies_map_clientes",
-      "target": "alldev_dependencies_map_clientes_components",
-      "confidence_score": 1.0
+      "target": "alldev_dependencies_map_clientes_components"
     },
     {
       "relation": "contains",
@@ -1262,9 +1401,9 @@
       "source_file": "dependencies-map.json",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "alldev_dependencies_map_clientes",
-      "target": "alldev_dependencies_map_clientes_tests",
-      "confidence_score": 1.0
+      "target": "alldev_dependencies_map_clientes_tests"
     },
     {
       "relation": "contains",
@@ -1272,9 +1411,9 @@
       "source_file": "dependencies-map.json",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "alldev_dependencies_map_clientes",
-      "target": "alldev_dependencies_map_clientes_database",
-      "confidence_score": 1.0
+      "target": "alldev_dependencies_map_clientes_database"
     },
     {
       "relation": "contains",
@@ -1282,9 +1421,9 @@
       "source_file": "dependencies-map.json",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "alldev_dependencies_map_auth_google",
-      "target": "alldev_dependencies_map_auth_google_routes",
-      "confidence_score": 1.0
+      "target": "alldev_dependencies_map_auth_google_routes"
     },
     {
       "relation": "contains",
@@ -1292,9 +1431,9 @@
       "source_file": "dependencies-map.json",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "alldev_dependencies_map_auth_google",
-      "target": "alldev_dependencies_map_auth_google_components",
-      "confidence_score": 1.0
+      "target": "alldev_dependencies_map_auth_google_components"
     },
     {
       "relation": "contains",
@@ -1302,29 +1441,149 @@
       "source_file": "dependencies-map.json",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "alldev_dependencies_map_auth_google",
-      "target": "alldev_dependencies_map_auth_google_tests",
-      "confidence_score": 1.0
+      "target": "alldev_dependencies_map_auth_google_tests"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "templates/login-google/backend.ts",
-      "source_location": "L4",
+      "source_file": "manifest.json",
+      "source_location": "L2",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "templates_login_google_backend_ts",
-      "target": "login_google_backend_router"
+      "source": "manifest_json",
+      "target": "alldev_manifest_name"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "templates/login-google/frontend.tsx",
+      "source_file": "manifest.json",
       "source_location": "L3",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "templates_login_google_frontend_tsx",
-      "target": "login_google_frontend_logingoogle"
+      "source": "manifest_json",
+      "target": "alldev_manifest_description"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "manifest_json",
+      "target": "alldev_manifest_instructions"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "manifest_json",
+      "target": "alldev_manifest_version"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "manifest_json",
+      "target": "alldev_manifest_contact_email"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "manifest_json",
+      "target": "alldev_manifest_legal_info_url"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "manifest_json",
+      "target": "alldev_manifest_api"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "manifest_json",
+      "target": "alldev_manifest_logo_url"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "alldev_manifest_api",
+      "target": "alldev_manifest_api_type"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "alldev_manifest_api",
+      "target": "alldev_manifest_api_url"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "alldev_manifest_api",
+      "target": "alldev_manifest_api_auth"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "alldev_manifest_api_auth",
+      "target": "alldev_manifest_auth_type"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "alldev_manifest_api_auth",
+      "target": "alldev_manifest_auth_authorizationurl"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "alldev_manifest_api_auth",
+      "target": "alldev_manifest_auth_instructions"
     },
     {
       "relation": "contains",
@@ -1359,142 +1618,22 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L1",
+      "source_file": "templates/login-google/backend.ts",
+      "source_location": "L4",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "readme_md",
-      "target": "alldev_readme_alldev_gpt_dev_fullstack_devops_qa_aut\u00f4nomo"
+      "source": "templates_login_google_backend_ts",
+      "target": "login_google_backend_router"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L1",
+      "source_file": "templates/login-google/frontend.tsx",
+      "source_location": "L3",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "readme_md",
-      "target": "alldev_readme_alldev_gpt_dev_fullstack_devops_qa_aut_nomo"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L7",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "alldev_readme_alldev_gpt_dev_fullstack_devops_qa_aut\u00f4nomo",
-      "target": "alldev_readme_o_que_est\u00e1_aqui"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L19",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "alldev_readme_alldev_gpt_dev_fullstack_devops_qa_aut\u00f4nomo",
-      "target": "alldev_readme_como_usar_este_reposit\u00f3rio_com_chatgpt"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L62",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "alldev_readme_alldev_gpt_dev_fullstack_devops_qa_aut\u00f4nomo",
-      "target": "alldev_readme_sobre_este_reposit\u00f3rio"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L69",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "alldev_readme_alldev_gpt_dev_fullstack_devops_qa_aut\u00f4nomo",
-      "target": "alldev_readme_seguran\u00e7a"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L77",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "alldev_readme_alldev_gpt_dev_fullstack_devops_qa_aut\u00f4nomo",
-      "target": "alldev_readme_contato"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L21",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "alldev_readme_como_usar_este_reposit\u00f3rio_com_chatgpt",
-      "target": "alldev_readme_1_ative_o_github_pages"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L31",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "alldev_readme_como_usar_este_reposit\u00f3rio_com_chatgpt",
-      "target": "alldev_readme_2_crie_o_gpt_em_chat_openai_com_gpts_editor_https_chat_openai_com_gpts_editor"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L45",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "alldev_readme_como_usar_este_reposit\u00f3rio_com_chatgpt",
-      "target": "alldev_readme_3_o_gpt_pode"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L21",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "alldev_readme_como_usar_este_reposit_rio_com_chatgpt",
-      "target": "alldev_readme_1_ative_o_github_pages"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L31",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "alldev_readme_como_usar_este_reposit_rio_com_chatgpt",
-      "target": "alldev_readme_2_crie_o_gpt_em_chat_openai_com_gpts_editor_https_chat_openai_com_gpts_editor"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L45",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "alldev_readme_como_usar_este_reposit_rio_com_chatgpt",
-      "target": "alldev_readme_3_o_gpt_pode"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L77",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "alldev_readme_alldev_gpt_dev_fullstack_devops_qa_aut_nomo",
-      "target": "alldev_readme_contato"
+      "source": "templates_login_google_frontend_tsx",
+      "target": "login_google_frontend_logingoogle"
     },
     {
       "relation": "contains",
@@ -1969,6 +2108,146 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "readme_md",
+      "target": "alldev_readme_alldev_gpt_dev_fullstack_devops_qa_aut\u00f4nomo"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "readme_md",
+      "target": "alldev_readme_alldev_gpt_dev_fullstack_devops_qa_aut_nomo"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "alldev_readme_alldev_gpt_dev_fullstack_devops_qa_aut\u00f4nomo",
+      "target": "alldev_readme_o_que_est\u00e1_aqui"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "alldev_readme_alldev_gpt_dev_fullstack_devops_qa_aut\u00f4nomo",
+      "target": "alldev_readme_como_usar_este_reposit\u00f3rio_com_chatgpt"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L62",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "alldev_readme_alldev_gpt_dev_fullstack_devops_qa_aut\u00f4nomo",
+      "target": "alldev_readme_sobre_este_reposit\u00f3rio"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L69",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "alldev_readme_alldev_gpt_dev_fullstack_devops_qa_aut\u00f4nomo",
+      "target": "alldev_readme_seguran\u00e7a"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L77",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "alldev_readme_alldev_gpt_dev_fullstack_devops_qa_aut\u00f4nomo",
+      "target": "alldev_readme_contato"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "alldev_readme_como_usar_este_reposit\u00f3rio_com_chatgpt",
+      "target": "alldev_readme_1_ative_o_github_pages"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "alldev_readme_como_usar_este_reposit\u00f3rio_com_chatgpt",
+      "target": "alldev_readme_2_crie_o_gpt_em_chat_openai_com_gpts_editor_https_chat_openai_com_gpts_editor"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L45",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "alldev_readme_como_usar_este_reposit\u00f3rio_com_chatgpt",
+      "target": "alldev_readme_3_o_gpt_pode"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "alldev_readme_como_usar_este_reposit_rio_com_chatgpt",
+      "target": "alldev_readme_1_ative_o_github_pages"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "alldev_readme_como_usar_este_reposit_rio_com_chatgpt",
+      "target": "alldev_readme_2_crie_o_gpt_em_chat_openai_com_gpts_editor_https_chat_openai_com_gpts_editor"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L45",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "alldev_readme_como_usar_este_reposit_rio_com_chatgpt",
+      "target": "alldev_readme_3_o_gpt_pode"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L77",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "alldev_readme_alldev_gpt_dev_fullstack_devops_qa_aut_nomo",
+      "target": "alldev_readme_contato"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "docs/APRENDIZADOS.md",
       "source_location": "L1",
       "weight": 1.0,
@@ -2049,6 +2328,276 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": ".claude/skills.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "claude_skills_md",
+      "target": "claude_skills_skills_aplicaveis_shell_outros",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "claude_skills_skills_aplicaveis_shell_outros",
+      "target": "claude_skills_basais_sempre",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "claude_skills_skills_aplicaveis_shell_outros",
+      "target": "claude_skills_padroes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/prompts.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "claude_prompts_md",
+      "target": "claude_prompts_prompts_e_templates_fmunizm_alldev",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/prompts.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "claude_prompts_prompts_e_templates_fmunizm_alldev",
+      "target": "claude_prompts_template_1_comeco_de_sessao",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/prompts.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "claude_prompts_prompts_e_templates_fmunizm_alldev",
+      "target": "claude_prompts_template_2_implementacao_de_feature",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/prompts.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "claude_prompts_prompts_e_templates_fmunizm_alldev",
+      "target": "claude_prompts_template_3_bug_fix",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/prompts.md",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "claude_prompts_prompts_e_templates_fmunizm_alldev",
+      "target": "claude_prompts_template_4_auditoria_revisao",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/prompts.md",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "claude_prompts_prompts_e_templates_fmunizm_alldev",
+      "target": "claude_prompts_template_5_deploy_e_validacao",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/prompts.md",
+      "source_location": "L80",
+      "weight": 1.0,
+      "source": "claude_prompts_prompts_e_templates_fmunizm_alldev",
+      "target": "claude_prompts_template_7_atualizacao_de_skills",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/prompts.md",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "claude_prompts_template_1_comeco_de_sessao",
+      "target": "claude_prompts_codeblock_1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/prompts.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "claude_prompts_template_2_implementacao_de_feature",
+      "target": "claude_prompts_codeblock_2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/prompts.md",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "claude_prompts_template_3_bug_fix",
+      "target": "claude_prompts_codeblock_3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/prompts.md",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "claude_prompts_template_4_auditoria_revisao",
+      "target": "claude_prompts_codeblock_4",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/prompts.md",
+      "source_location": "L65",
+      "weight": 1.0,
+      "source": "claude_prompts_template_5_deploy_e_validacao",
+      "target": "claude_prompts_codeblock_5",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/prompts.md",
+      "source_location": "L82",
+      "weight": 1.0,
+      "source": "claude_prompts_template_7_atualizacao_de_skills",
+      "target": "claude_prompts_codeblock_6",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/orquestrador.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "claude_orquestrador_md",
+      "target": "claude_orquestrador_orquestrador_fmunizm_alldev",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/orquestrador.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "claude_orquestrador_orquestrador_fmunizm_alldev",
+      "target": "claude_orquestrador_persona",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/orquestrador.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "claude_orquestrador_orquestrador_fmunizm_alldev",
+      "target": "claude_orquestrador_missao",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/orquestrador.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "claude_orquestrador_orquestrador_fmunizm_alldev",
+      "target": "claude_orquestrador_dominio_de_atuacao",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/orquestrador.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "claude_orquestrador_orquestrador_fmunizm_alldev",
+      "target": "claude_orquestrador_stack",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/orquestrador.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "claude_orquestrador_orquestrador_fmunizm_alldev",
+      "target": "claude_orquestrador_criticidade",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/orquestrador.md",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "claude_orquestrador_orquestrador_fmunizm_alldev",
+      "target": "claude_orquestrador_squad_sob_sua_coordenacao",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/orquestrador.md",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "claude_orquestrador_orquestrador_fmunizm_alldev",
+      "target": "claude_orquestrador_triggers_de_skills_quando_aplicar_cada_uma",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/orquestrador.md",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "claude_orquestrador_orquestrador_fmunizm_alldev",
+      "target": "claude_orquestrador_decisoes_que_voce_orquestrador_toma",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/orquestrador.md",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "claude_orquestrador_orquestrador_fmunizm_alldev",
+      "target": "claude_orquestrador_decisoes_que_nao_sao_suas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/orquestrador.md",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "claude_orquestrador_squad_sob_sua_coordenacao",
+      "target": "claude_orquestrador_sempre_disponiveis_basais",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "README.md",
       "source_location": "L7",
       "weight": 1.0,
@@ -2088,5 +2637,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "5ee464414d5dfe6c33fdc46bfc6e35712cdc481a"
+  "built_at_commit": "d6d20346da2c299e882551089a311e14c6cace50"
 }
