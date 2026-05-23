@@ -8,9 +8,26 @@
       "file_type": "code",
       "source_file": "setup.sh",
       "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "file"
+      },
       "id": "setup_sh",
       "community": 24,
       "norm_label": "setup.sh"
+    },
+    {
+      "label": "setup.sh script",
+      "file_type": "code",
+      "source_file": "setup.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "id": "home_runner_work_alldev_alldev_setup_sh__entry",
+      "community": 24,
+      "norm_label": "setup.sh script"
     },
     {
       "label": "dependencies-map.json",
@@ -377,54 +394,156 @@
       "file_type": "code",
       "source_file": "scripts/setup-vps.sh",
       "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "file"
+      },
       "id": "scripts_setup_vps_sh",
       "community": 23,
       "norm_label": "setup-vps.sh"
+    },
+    {
+      "label": "setup-vps.sh script",
+      "file_type": "code",
+      "source_file": "scripts/setup-vps.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "id": "home_runner_work_alldev_alldev_scripts_setup_vps_sh__entry",
+      "community": 23,
+      "norm_label": "setup-vps.sh script"
     },
     {
       "label": "deploy.sh",
       "file_type": "code",
       "source_file": "scripts/deploy.sh",
       "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "file"
+      },
       "id": "scripts_deploy_sh",
       "community": 18,
       "norm_label": "deploy.sh"
+    },
+    {
+      "label": "deploy.sh script",
+      "file_type": "code",
+      "source_file": "scripts/deploy.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "id": "home_runner_work_alldev_alldev_scripts_deploy_sh__entry",
+      "community": 18,
+      "norm_label": "deploy.sh script"
     },
     {
       "label": "push-mirror.sh",
       "file_type": "code",
       "source_file": "scripts/git/push-mirror.sh",
       "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "file"
+      },
       "id": "scripts_git_push_mirror_sh",
       "community": 19,
       "norm_label": "push-mirror.sh"
+    },
+    {
+      "label": "push-mirror.sh script",
+      "file_type": "code",
+      "source_file": "scripts/git/push-mirror.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "id": "home_runner_work_alldev_alldev_scripts_git_push_mirror_sh__entry",
+      "community": 19,
+      "norm_label": "push-mirror.sh script"
     },
     {
       "label": "setup-mirror.sh",
       "file_type": "code",
       "source_file": "scripts/git/setup-mirror.sh",
       "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "file"
+      },
       "id": "scripts_git_setup_mirror_sh",
       "community": 20,
       "norm_label": "setup-mirror.sh"
+    },
+    {
+      "label": "setup-mirror.sh script",
+      "file_type": "code",
+      "source_file": "scripts/git/setup-mirror.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "id": "home_runner_work_alldev_alldev_scripts_git_setup_mirror_sh__entry",
+      "community": 20,
+      "norm_label": "setup-mirror.sh script"
     },
     {
       "label": "send-logs.sh",
       "file_type": "code",
       "source_file": "scripts/monitor/send-logs.sh",
       "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "file"
+      },
       "id": "scripts_monitor_send_logs_sh",
       "community": 21,
       "norm_label": "send-logs.sh"
+    },
+    {
+      "label": "send-logs.sh script",
+      "file_type": "code",
+      "source_file": "scripts/monitor/send-logs.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "id": "home_runner_work_alldev_alldev_scripts_monitor_send_logs_sh__entry",
+      "community": 21,
+      "norm_label": "send-logs.sh script"
     },
     {
       "label": "setup-monitoring.sh",
       "file_type": "code",
       "source_file": "scripts/monitor/setup-monitoring.sh",
       "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "file"
+      },
       "id": "scripts_monitor_setup_monitoring_sh",
       "community": 22,
       "norm_label": "setup-monitoring.sh"
+    },
+    {
+      "label": "setup-monitoring.sh script",
+      "file_type": "code",
+      "source_file": "scripts/monitor/setup-monitoring.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "id": "home_runner_work_alldev_alldev_scripts_monitor_setup_monitoring_sh__entry",
+      "community": 22,
+      "norm_label": "setup-monitoring.sh script"
     },
     {
       "label": "CLAUDE.md",
@@ -729,7 +848,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L339",
       "id": "alldev_claude_7_estrutura_do_repo",
-      "community": 3,
+      "community": 26,
       "norm_label": "7. estrutura do repo"
     },
     {
@@ -738,7 +857,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L341",
       "id": "alldev_claude_diretorios_principais",
-      "community": 3,
+      "community": 26,
       "norm_label": "diretorios principais"
     },
     {
@@ -747,7 +866,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L343",
       "id": "alldev_claude_codeblock_1",
-      "community": 3,
+      "community": 26,
       "norm_label": "code:block1 (.claude)"
     },
     {
@@ -756,7 +875,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L354",
       "id": "alldev_claude_arquivos_da_raiz_amostra",
-      "community": 3,
+      "community": 26,
       "norm_label": "arquivos da raiz (amostra)"
     },
     {
@@ -765,7 +884,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L356",
       "id": "alldev_claude_codeblock_2",
-      "community": 3,
+      "community": 26,
       "norm_label": "code:block2 (.gitignore)"
     },
     {
@@ -801,7 +920,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L405",
       "id": "alldev_claude_10_checklist_de_entrega_obrigatorio",
-      "community": 26,
+      "community": 3,
       "norm_label": "10. checklist de entrega obrigatorio"
     },
     {
@@ -810,7 +929,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L409",
       "id": "alldev_claude_codigo",
-      "community": 26,
+      "community": 3,
       "norm_label": "codigo"
     },
     {
@@ -819,7 +938,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L417",
       "id": "alldev_claude_testes",
-      "community": 26,
+      "community": 3,
       "norm_label": "testes"
     },
     {
@@ -828,7 +947,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L425",
       "id": "alldev_claude_documentacao",
-      "community": 26,
+      "community": 3,
       "norm_label": "documentacao"
     },
     {
@@ -837,7 +956,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L433",
       "id": "alldev_claude_deploy",
-      "community": 26,
+      "community": 3,
       "norm_label": "deploy"
     },
     {
@@ -846,7 +965,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L441",
       "id": "alldev_claude_sinalizar_conclusao",
-      "community": 26,
+      "community": 3,
       "norm_label": "sinalizar conclusao"
     },
     {
@@ -1358,6 +1477,16 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "setup.sh",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "setup_sh",
+      "target": "home_runner_work_alldev_alldev_setup_sh__entry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "dependencies-map.json",
       "source_location": "L2",
       "weight": 1.0,
@@ -1634,6 +1763,66 @@
       "confidence_score": 1.0,
       "source": "templates_login_google_frontend_tsx",
       "target": "login_google_frontend_logingoogle"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/setup-vps.sh",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "scripts_setup_vps_sh",
+      "target": "home_runner_work_alldev_alldev_scripts_setup_vps_sh__entry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/deploy.sh",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "scripts_deploy_sh",
+      "target": "home_runner_work_alldev_alldev_scripts_deploy_sh__entry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/push-mirror.sh",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "scripts_git_push_mirror_sh",
+      "target": "home_runner_work_alldev_alldev_scripts_git_push_mirror_sh__entry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git/setup-mirror.sh",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "scripts_git_setup_mirror_sh",
+      "target": "home_runner_work_alldev_alldev_scripts_git_setup_mirror_sh__entry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/monitor/send-logs.sh",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "scripts_monitor_send_logs_sh",
+      "target": "home_runner_work_alldev_alldev_scripts_monitor_send_logs_sh__entry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/monitor/setup-monitoring.sh",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "scripts_monitor_setup_monitoring_sh",
+      "target": "home_runner_work_alldev_alldev_scripts_monitor_setup_monitoring_sh__entry",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2331,9 +2520,9 @@
       "source_file": ".claude/skills.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_md",
-      "target": "claude_skills_skills_aplicaveis_shell_outros",
-      "confidence_score": 1.0
+      "target": "claude_skills_skills_aplicaveis_shell_outros"
     },
     {
       "relation": "contains",
@@ -2341,9 +2530,9 @@
       "source_file": ".claude/skills.md",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_skills_aplicaveis_shell_outros",
-      "target": "claude_skills_basais_sempre",
-      "confidence_score": 1.0
+      "target": "claude_skills_basais_sempre"
     },
     {
       "relation": "contains",
@@ -2351,9 +2540,9 @@
       "source_file": ".claude/skills.md",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_skills_aplicaveis_shell_outros",
-      "target": "claude_skills_padroes",
-      "confidence_score": 1.0
+      "target": "claude_skills_padroes"
     },
     {
       "relation": "contains",
@@ -2361,9 +2550,9 @@
       "source_file": ".claude/prompts.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_prompts_md",
-      "target": "claude_prompts_prompts_e_templates_fmunizm_alldev",
-      "confidence_score": 1.0
+      "target": "claude_prompts_prompts_e_templates_fmunizm_alldev"
     },
     {
       "relation": "contains",
@@ -2371,9 +2560,9 @@
       "source_file": ".claude/prompts.md",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_prompts_prompts_e_templates_fmunizm_alldev",
-      "target": "claude_prompts_template_1_comeco_de_sessao",
-      "confidence_score": 1.0
+      "target": "claude_prompts_template_1_comeco_de_sessao"
     },
     {
       "relation": "contains",
@@ -2381,9 +2570,9 @@
       "source_file": ".claude/prompts.md",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_prompts_prompts_e_templates_fmunizm_alldev",
-      "target": "claude_prompts_template_2_implementacao_de_feature",
-      "confidence_score": 1.0
+      "target": "claude_prompts_template_2_implementacao_de_feature"
     },
     {
       "relation": "contains",
@@ -2391,9 +2580,9 @@
       "source_file": ".claude/prompts.md",
       "source_location": "L34",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_prompts_prompts_e_templates_fmunizm_alldev",
-      "target": "claude_prompts_template_3_bug_fix",
-      "confidence_score": 1.0
+      "target": "claude_prompts_template_3_bug_fix"
     },
     {
       "relation": "contains",
@@ -2401,9 +2590,9 @@
       "source_file": ".claude/prompts.md",
       "source_location": "L48",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_prompts_prompts_e_templates_fmunizm_alldev",
-      "target": "claude_prompts_template_4_auditoria_revisao",
-      "confidence_score": 1.0
+      "target": "claude_prompts_template_4_auditoria_revisao"
     },
     {
       "relation": "contains",
@@ -2411,9 +2600,9 @@
       "source_file": ".claude/prompts.md",
       "source_location": "L63",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_prompts_prompts_e_templates_fmunizm_alldev",
-      "target": "claude_prompts_template_5_deploy_e_validacao",
-      "confidence_score": 1.0
+      "target": "claude_prompts_template_5_deploy_e_validacao"
     },
     {
       "relation": "contains",
@@ -2421,9 +2610,9 @@
       "source_file": ".claude/prompts.md",
       "source_location": "L80",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_prompts_prompts_e_templates_fmunizm_alldev",
-      "target": "claude_prompts_template_7_atualizacao_de_skills",
-      "confidence_score": 1.0
+      "target": "claude_prompts_template_7_atualizacao_de_skills"
     },
     {
       "relation": "contains",
@@ -2431,9 +2620,9 @@
       "source_file": ".claude/prompts.md",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_prompts_template_1_comeco_de_sessao",
-      "target": "claude_prompts_codeblock_1",
-      "confidence_score": 1.0
+      "target": "claude_prompts_codeblock_1"
     },
     {
       "relation": "contains",
@@ -2441,9 +2630,9 @@
       "source_file": ".claude/prompts.md",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_prompts_template_2_implementacao_de_feature",
-      "target": "claude_prompts_codeblock_2",
-      "confidence_score": 1.0
+      "target": "claude_prompts_codeblock_2"
     },
     {
       "relation": "contains",
@@ -2451,9 +2640,9 @@
       "source_file": ".claude/prompts.md",
       "source_location": "L36",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_prompts_template_3_bug_fix",
-      "target": "claude_prompts_codeblock_3",
-      "confidence_score": 1.0
+      "target": "claude_prompts_codeblock_3"
     },
     {
       "relation": "contains",
@@ -2461,9 +2650,9 @@
       "source_file": ".claude/prompts.md",
       "source_location": "L50",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_prompts_template_4_auditoria_revisao",
-      "target": "claude_prompts_codeblock_4",
-      "confidence_score": 1.0
+      "target": "claude_prompts_codeblock_4"
     },
     {
       "relation": "contains",
@@ -2471,9 +2660,9 @@
       "source_file": ".claude/prompts.md",
       "source_location": "L65",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_prompts_template_5_deploy_e_validacao",
-      "target": "claude_prompts_codeblock_5",
-      "confidence_score": 1.0
+      "target": "claude_prompts_codeblock_5"
     },
     {
       "relation": "contains",
@@ -2481,9 +2670,9 @@
       "source_file": ".claude/prompts.md",
       "source_location": "L82",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_prompts_template_7_atualizacao_de_skills",
-      "target": "claude_prompts_codeblock_6",
-      "confidence_score": 1.0
+      "target": "claude_prompts_codeblock_6"
     },
     {
       "relation": "contains",
@@ -2491,9 +2680,9 @@
       "source_file": ".claude/orquestrador.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_orquestrador_md",
-      "target": "claude_orquestrador_orquestrador_fmunizm_alldev",
-      "confidence_score": 1.0
+      "target": "claude_orquestrador_orquestrador_fmunizm_alldev"
     },
     {
       "relation": "contains",
@@ -2501,9 +2690,9 @@
       "source_file": ".claude/orquestrador.md",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_orquestrador_orquestrador_fmunizm_alldev",
-      "target": "claude_orquestrador_persona",
-      "confidence_score": 1.0
+      "target": "claude_orquestrador_persona"
     },
     {
       "relation": "contains",
@@ -2511,9 +2700,9 @@
       "source_file": ".claude/orquestrador.md",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_orquestrador_orquestrador_fmunizm_alldev",
-      "target": "claude_orquestrador_missao",
-      "confidence_score": 1.0
+      "target": "claude_orquestrador_missao"
     },
     {
       "relation": "contains",
@@ -2521,9 +2710,9 @@
       "source_file": ".claude/orquestrador.md",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_orquestrador_orquestrador_fmunizm_alldev",
-      "target": "claude_orquestrador_dominio_de_atuacao",
-      "confidence_score": 1.0
+      "target": "claude_orquestrador_dominio_de_atuacao"
     },
     {
       "relation": "contains",
@@ -2531,9 +2720,9 @@
       "source_file": ".claude/orquestrador.md",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_orquestrador_orquestrador_fmunizm_alldev",
-      "target": "claude_orquestrador_stack",
-      "confidence_score": 1.0
+      "target": "claude_orquestrador_stack"
     },
     {
       "relation": "contains",
@@ -2541,9 +2730,9 @@
       "source_file": ".claude/orquestrador.md",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_orquestrador_orquestrador_fmunizm_alldev",
-      "target": "claude_orquestrador_criticidade",
-      "confidence_score": 1.0
+      "target": "claude_orquestrador_criticidade"
     },
     {
       "relation": "contains",
@@ -2551,9 +2740,9 @@
       "source_file": ".claude/orquestrador.md",
       "source_location": "L23",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_orquestrador_orquestrador_fmunizm_alldev",
-      "target": "claude_orquestrador_squad_sob_sua_coordenacao",
-      "confidence_score": 1.0
+      "target": "claude_orquestrador_squad_sob_sua_coordenacao"
     },
     {
       "relation": "contains",
@@ -2561,9 +2750,9 @@
       "source_file": ".claude/orquestrador.md",
       "source_location": "L33",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_orquestrador_orquestrador_fmunizm_alldev",
-      "target": "claude_orquestrador_triggers_de_skills_quando_aplicar_cada_uma",
-      "confidence_score": 1.0
+      "target": "claude_orquestrador_triggers_de_skills_quando_aplicar_cada_uma"
     },
     {
       "relation": "contains",
@@ -2571,9 +2760,9 @@
       "source_file": ".claude/orquestrador.md",
       "source_location": "L42",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_orquestrador_orquestrador_fmunizm_alldev",
-      "target": "claude_orquestrador_decisoes_que_voce_orquestrador_toma",
-      "confidence_score": 1.0
+      "target": "claude_orquestrador_decisoes_que_voce_orquestrador_toma"
     },
     {
       "relation": "contains",
@@ -2581,9 +2770,9 @@
       "source_file": ".claude/orquestrador.md",
       "source_location": "L51",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_orquestrador_orquestrador_fmunizm_alldev",
-      "target": "claude_orquestrador_decisoes_que_nao_sao_suas",
-      "confidence_score": 1.0
+      "target": "claude_orquestrador_decisoes_que_nao_sao_suas"
     },
     {
       "relation": "contains",
@@ -2591,9 +2780,9 @@
       "source_file": ".claude/orquestrador.md",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_orquestrador_squad_sob_sua_coordenacao",
-      "target": "claude_orquestrador_sempre_disponiveis_basais",
-      "confidence_score": 1.0
+      "target": "claude_orquestrador_sempre_disponiveis_basais"
     },
     {
       "relation": "contains",
@@ -2637,5 +2826,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "d6d20346da2c299e882551089a311e14c6cace50"
+  "built_at_commit": "ecb887c05aac4c51961faa96edf17fae46eca3cc"
 }
