@@ -1,146 +1,146 @@
 {
   "/home/runner/work/alldev/alldev/setup.sh": {
-    "mtime": 1779702200.7575104,
+    "mtime": 1779787826.8098338,
     "ast_hash": "0f42eef7f7e898b4f0eb1925c7f04f11",
     "semantic_hash": ""
   },
   "/home/runner/work/alldev/alldev/dependencies-map.json": {
-    "mtime": 1779702200.75621,
+    "mtime": 1779787826.8079991,
     "ast_hash": "1f13c2c3e7d635a00c5c7b83627de281",
     "semantic_hash": ""
   },
   "/home/runner/work/alldev/alldev/manifest.json": {
-    "mtime": 1779702200.7565827,
+    "mtime": 1779787826.808652,
     "ast_hash": "2bb2202cc492abc6f2bb6032a12cecc7",
     "semantic_hash": ""
   },
   "/home/runner/work/alldev/alldev/.well-known/ai-plugin.json": {
-    "mtime": 1779702200.75621,
+    "mtime": 1779787826.8079991,
     "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
     "semantic_hash": ""
   },
   "/home/runner/work/alldev/alldev/templates/cadastro-clientes/backend.ts": {
-    "mtime": 1779702200.7576342,
+    "mtime": 1779787826.8099673,
     "ast_hash": "22e536abd5b5dc55c6f8dc0d70efdcd8",
     "semantic_hash": ""
   },
   "/home/runner/work/alldev/alldev/templates/cadastro-clientes/frontend.tsx": {
-    "mtime": 1779702200.7576642,
+    "mtime": 1779787826.8100226,
     "ast_hash": "3107200f9288ea02feef9ade0f0d433d",
     "semantic_hash": ""
   },
   "/home/runner/work/alldev/alldev/templates/cadastro-clientes/test.spec.ts": {
-    "mtime": 1779702200.7576642,
+    "mtime": 1779787826.8100226,
     "ast_hash": "5540bcfe01ff5d5670ace983646ae6b2",
     "semantic_hash": ""
   },
   "/home/runner/work/alldev/alldev/templates/login-google/backend.ts": {
-    "mtime": 1779702200.7576642,
+    "mtime": 1779787826.8100226,
     "ast_hash": "82c3a4dc6946a99979b772f95693cba8",
     "semantic_hash": ""
   },
   "/home/runner/work/alldev/alldev/templates/login-google/frontend.tsx": {
-    "mtime": 1779702200.7577298,
+    "mtime": 1779787826.810147,
     "ast_hash": "368e86bd6d7dabb31d5bb748e3970ba3",
     "semantic_hash": ""
   },
   "/home/runner/work/alldev/alldev/templates/login-google/test.spec.ts": {
-    "mtime": 1779702200.7577298,
+    "mtime": 1779787826.810147,
     "ast_hash": "52647606ad2a9c7ebe2cb895201cfa3d",
     "semantic_hash": ""
   },
   "/home/runner/work/alldev/alldev/tests/e2e/exemplo.spec.ts": {
-    "mtime": 1779702200.7577794,
+    "mtime": 1779787826.8102734,
     "ast_hash": "3ff4cba65cfc9887c1861b08e3b7141a",
     "semantic_hash": ""
   },
   "/home/runner/work/alldev/alldev/tests/frontend/exemplo.test.tsx": {
-    "mtime": 1779702200.7577794,
+    "mtime": 1779787826.8102734,
     "ast_hash": "3fea29665d45d1e7ba4c53211b9ea66c",
     "semantic_hash": ""
   },
   "/home/runner/work/alldev/alldev/tests/backend/exemplo.test.ts": {
-    "mtime": 1779702200.7577794,
+    "mtime": 1779787826.8102734,
     "ast_hash": "cac8c7e33d9d5364f2aeb36974b09fe0",
     "semantic_hash": ""
   },
   "/home/runner/work/alldev/alldev/scripts/setup-vps.sh": {
-    "mtime": 1779702200.7575104,
+    "mtime": 1779787826.8098338,
     "ast_hash": "1b031db06538602bc14f56ef680f188b",
     "semantic_hash": ""
   },
   "/home/runner/work/alldev/alldev/scripts/deploy.sh": {
-    "mtime": 1779702200.7565827,
+    "mtime": 1779787826.808652,
     "ast_hash": "ce27e9a583ff33df1200a44b98fe9f13",
     "semantic_hash": ""
   },
   "/home/runner/work/alldev/alldev/scripts/git/push-mirror.sh": {
-    "mtime": 1779702200.7573824,
+    "mtime": 1779787826.8095925,
     "ast_hash": "ad7e353d709bf62c00ff906a4f762e15",
     "semantic_hash": ""
   },
   "/home/runner/work/alldev/alldev/scripts/git/setup-mirror.sh": {
-    "mtime": 1779702200.7574577,
+    "mtime": 1779787826.8097408,
     "ast_hash": "f818c01cd67129a5c9bc47265d76cee0",
     "semantic_hash": ""
   },
   "/home/runner/work/alldev/alldev/scripts/monitor/send-logs.sh": {
-    "mtime": 1779702200.7574577,
+    "mtime": 1779787826.8097408,
     "ast_hash": "af96598aee7921ae582069b981a89494",
     "semantic_hash": ""
   },
   "/home/runner/work/alldev/alldev/scripts/monitor/setup-monitoring.sh": {
-    "mtime": 1779702200.7575104,
+    "mtime": 1779787826.8098338,
     "ast_hash": "2509763185f4f8ccee7d1cdeb571b1cf",
     "semantic_hash": ""
   },
   "/home/runner/work/alldev/alldev/onboarding.html": {
-    "mtime": 1779702200.7565827,
+    "mtime": 1779787826.808652,
     "ast_hash": "e0d3e9915bcd79e6f104f6538f8c319d",
     "semantic_hash": ""
   },
   "/home/runner/work/alldev/alldev/CLAUDE.md": {
-    "mtime": 1779702200.75621,
+    "mtime": 1779787826.8079991,
     "ast_hash": "0bc440d99ed1dea32be58aca3668b1ab",
     "semantic_hash": ""
   },
   "/home/runner/work/alldev/alldev/README.md": {
-    "mtime": 1779702200.75621,
+    "mtime": 1779787826.8079991,
     "ast_hash": "0f1b84c9e49ae5f1ab20a02bb77a39f1",
     "semantic_hash": ""
   },
   "/home/runner/work/alldev/alldev/openapi.yaml": {
-    "mtime": 1779702200.7565827,
+    "mtime": 1779787826.808652,
     "ast_hash": "4e17ac78efc22639e012e4e81c228144",
     "semantic_hash": ""
   },
   "/home/runner/work/alldev/alldev/docs/APRENDIZADOS.md": {
-    "mtime": 1779702200.75621,
+    "mtime": 1779787826.8079991,
     "ast_hash": "d5e97d9f0c4359a15f351fe563cb9af6",
     "semantic_hash": ""
   },
   "/home/runner/work/alldev/alldev/docs/HISTORICO.md": {
-    "mtime": 1779702200.7564769,
+    "mtime": 1779787826.8084464,
     "ast_hash": "b96b80cc4bcc26c196413cdc1ade6cc9",
     "semantic_hash": ""
   },
   "/home/runner/work/alldev/alldev/.github/workflows/graphify.yml": {
-    "mtime": 1779702200.75621,
+    "mtime": 1779787826.8079991,
     "ast_hash": "3f73f40d0b691c5e97a37ddbe3d87734",
     "semantic_hash": ""
   },
   "/home/runner/work/alldev/alldev/.claude/skills.md": {
-    "mtime": 1779702200.756129,
+    "mtime": 1779787826.8078804,
     "ast_hash": "6cfc756cdabaa169900c968bf736202f",
     "semantic_hash": ""
   },
   "/home/runner/work/alldev/alldev/.claude/prompts.md": {
-    "mtime": 1779702200.756129,
+    "mtime": 1779787826.8078804,
     "ast_hash": "244c5d35a216dd6126f001897628f3bf",
     "semantic_hash": ""
   },
   "/home/runner/work/alldev/alldev/.claude/orquestrador.md": {
-    "mtime": 1779702200.755077,
+    "mtime": 1779787826.806652,
     "ast_hash": "20ce39b047d08d70117d5d6f3536ff5e",
     "semantic_hash": ""
   }
