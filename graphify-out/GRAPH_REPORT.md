@@ -1,20 +1,21 @@
-# Graph Report - alldev  (2026-06-25)
+# Graph Report - alldev  (2026-06-26)
 
 ## Corpus Check
 - 26 files · ~5,494 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 164 nodes · 146 edges · 31 communities (20 shown, 11 thin omitted)
+- 159 nodes · 135 edges · 32 communities (21 shown, 11 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `b273896f`
+- Built from commit: `506bc298`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
+- [[_COMMUNITY_Community 0|Community 0]]
 - [[_COMMUNITY_Community 3|Community 3]]
 - [[_COMMUNITY_Community 5|Community 5]]
 - [[_COMMUNITY_Community 6|Community 6]]
@@ -43,13 +44,13 @@
 1. `Orquestrador - fmunizm/alldev` - 10 edges
 2. `ATENCAO CLAUDE - LEIA E OBEDECA ESTE BLOCO ANTES DE QUALQUER OUTRA COISA` - 10 edges
 3. `CLAUDE.md - fmunizm/alldev` - 8 edges
-4. `🧠 AllDev GPT – Dev Fullstack + DevOps + QA Autônomo` - 8 edges
-5. `Prompts e Templates - fmunizm/alldev` - 7 edges
-6. `AllDev GPT  Dev Fullstack + DevOps + QA Autnomo` - 7 edges
-7. `auth` - 6 edges
-8. `10. CHECKLIST DE ENTREGA OBRIGATORIO` - 6 edges
-9. `🧠 AllDev GPT – Dev Fullstack + DevOps + QA Autônomo` - 6 edges
-10. `api` - 5 edges
+4. `Prompts e Templates - fmunizm/alldev` - 7 edges
+5. `AllDev GPT  Dev Fullstack + DevOps + QA Autnomo` - 7 edges
+6. `auth` - 6 edges
+7. `10. CHECKLIST DE ENTREGA OBRIGATORIO` - 6 edges
+8. `🧠 AllDev GPT – Dev Fullstack + DevOps + QA Autônomo` - 6 edges
+9. `api` - 5 edges
+10. `clientes` - 5 edges
 
 ## Surprising Connections (you probably didn't know these)
 - None detected - all connections are within the same source files.
@@ -57,7 +58,11 @@
 ## Import Cycles
 - None detected.
 
-## Communities (31 total, 11 thin omitted)
+## Communities (32 total, 11 thin omitted)
+
+### Community 0 - "Community 0"
+Cohesion: 0.22
+Nodes (8): instructions, contact_email, description, instructions, legal_info_url, logo_url, name, version
 
 ### Community 3 - "Community 3"
 Cohesion: 0.40
@@ -92,8 +97,8 @@ Cohesion: 0.50
 Nodes (3): Basais (sempre), Padroes, Skills aplicaveis (Shell / Outros)
 
 ### Community 29 - "Community 29"
-Cohesion: 0.11
-Nodes (18): type, instructions, type, instructions, api, auth, type, url (+10 more)
+Cohesion: 0.20
+Nodes (10): type, instructions, type, api, auth, type, url, authorizationUrl (+2 more)
 
 ### Community 30 - "Community 30"
 Cohesion: 0.14
@@ -104,11 +109,11 @@ Cohesion: 0.17
 Nodes (12): ATENCAO CLAUDE - LEIA E OBEDECA ESTE BLOCO ANTES DE QUALQUER OUTRA COISA, Fluxo padrao quando o usuario pede arquivo, Padroes Brasil obrigatorios em cada arquivo gerado, REGRA 0 - VOCE E O LIDER + ORQUESTRADOR DESTE REPO. ATIVO. AGORA., REGRA -1 - O USUARIO E LEIGO. NUNCA PERGUNTE SOBRE PERSONA, SKILL OU CONFIGURACAO., REGRA 1 - SKILLS BASAIS - SEMPRE ON. NAO PERGUNTE. NAO ESCOLHA., REGRA 2.5 - GERACAO DE ARQUIVOS (Excel, PDF, DOCX, PPTX) - SKILLS XLSX/PDF/DOCX/PPTX, REGRA 2 - SKILLS CONDICIONAIS PARA REPO DE DESENVOLVIMENTO (+4 more)
 
 ### Community 33 - "Community 33"
-Cohesion: 0.19
-Nodes (14): 🧠 AllDev GPT – Dev Fullstack + DevOps + QA Autônomo, 🚀 Como usar este repositório com ChatGPT, 📦 O que está aqui, 🔒 Segurança, 👤 Sobre este repositório, 1️⃣ Ative o GitHub Pages, 2️⃣ Crie o GPT em [chat.openai.com/gpts/editor](https://chat.openai.com/gpts/editor), 3️⃣ O GPT pode: (+6 more)
+Cohesion: 0.20
+Nodes (9): 1️⃣ Ative o GitHub Pages, 2️⃣ Crie o GPT em [chat.openai.com/gpts/editor](https://chat.openai.com/gpts/editor), 3️⃣ O GPT pode:, 🧠 AllDev GPT – Dev Fullstack + DevOps + QA Autônomo, 🚀 Como usar este repositório com ChatGPT, ✉️ Contato, 📦 O que está aqui, 🔒 Segurança (+1 more)
 
 ## Knowledge Gaps
-- **83 isolated node(s):** `name`, `description`, `instructions`, `version`, `contact_email` (+78 more)
+- **86 isolated node(s):** `name`, `description`, `instructions`, `version`, `contact_email` (+81 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **11 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -116,16 +121,16 @@ Nodes (14): 🧠 AllDev GPT – Dev Fullstack + DevOps + QA Autônomo, 🚀 Como
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `AllDev GPT  Dev Fullstack + DevOps + QA Autnomo` connect `Community 26` to `Community 3`?**
-  _High betweenness centrality (0.053) - this node is a cross-community bridge._
+  _High betweenness centrality (0.056) - this node is a cross-community bridge._
 - **Why does `CLAUDE.md - fmunizm/alldev` connect `Community 30` to `Community 26`?**
-  _High betweenness centrality (0.039) - this node is a cross-community bridge._
+  _High betweenness centrality (0.041) - this node is a cross-community bridge._
 - **Why does `ATENCAO CLAUDE - LEIA E OBEDECA ESTE BLOCO ANTES DE QUALQUER OUTRA COISA` connect `Community 31` to `Community 26`?**
-  _High betweenness centrality (0.034) - this node is a cross-community bridge._
+  _High betweenness centrality (0.036) - this node is a cross-community bridge._
 - **What connects `name`, `description`, `instructions` to the rest of the system?**
-  _83 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _86 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 5` be split into smaller, more focused modules?**
   _Cohesion score 0.14285714285714285 - nodes in this community are weakly interconnected._
 - **Should `Community 26` be split into smaller, more focused modules?**
   _Cohesion score 0.11764705882352941 - nodes in this community are weakly interconnected._
-- **Should `Community 29` be split into smaller, more focused modules?**
-  _Cohesion score 0.10526315789473684 - nodes in this community are weakly interconnected._
+- **Should `Community 30` be split into smaller, more focused modules?**
+  _Cohesion score 0.14285714285714285 - nodes in this community are weakly interconnected._

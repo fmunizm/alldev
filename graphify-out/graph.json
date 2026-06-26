@@ -10,7 +10,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "manifest",
-      "community": 29,
+      "community": 0,
       "norm_label": "manifest.json"
     },
     {
@@ -20,7 +20,7 @@
       "source_location": "L2",
       "_origin": "ast",
       "id": "manifest_name",
-      "community": 29,
+      "community": 0,
       "norm_label": "name"
     },
     {
@@ -30,7 +30,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "manifest_description",
-      "community": 29,
+      "community": 0,
       "norm_label": "description"
     },
     {
@@ -40,7 +40,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "manifest_instructions",
-      "community": 29,
+      "community": 0,
       "norm_label": "instructions"
     },
     {
@@ -50,7 +50,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "manifest_version",
-      "community": 29,
+      "community": 0,
       "norm_label": "version"
     },
     {
@@ -60,7 +60,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "manifest_contact_email",
-      "community": 29,
+      "community": 0,
       "norm_label": "contact_email"
     },
     {
@@ -70,7 +70,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "manifest_legal_info_url",
-      "community": 29,
+      "community": 0,
       "norm_label": "legal_info_url"
     },
     {
@@ -150,7 +150,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "manifest_logo_url",
-      "community": 29,
+      "community": 0,
       "norm_label": "logo_url"
     },
     {
@@ -1457,7 +1457,7 @@
       "file_type": "code",
       "source_file": "manifest.json",
       "source_location": "L4",
-      "community": 29,
+      "community": 0,
       "norm_label": "instructions",
       "id": "alldev_manifest_instructions"
     },
@@ -1570,24 +1570,6 @@
       "id": "alldev_claude_codeblock_2"
     },
     {
-      "label": "\ud83d\udce6 O que est\u00e1 aqui",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L7",
-      "community": 33,
-      "norm_label": "\ud83d\udce6 o que esta aqui",
-      "id": "alldev_readme_o_que_est\u00e1_aqui"
-    },
-    {
-      "label": "\ud83d\udd12 Seguran\u00e7a",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L69",
-      "community": 33,
-      "norm_label": "\ud83d\udd12 seguranca",
-      "id": "alldev_readme_seguran\u00e7a"
-    },
-    {
       "label": "code:block1 (Trabalhando em fmunizm/alldev. Como Engenheiro DevOps + Tool)",
       "file_type": "document",
       "source_file": ".claude/prompts.md",
@@ -1640,36 +1622,19 @@
       "community": 5,
       "norm_label": "code:block6 (descobri novo padrao em fmunizm/alldev que vale virar skill.)",
       "id": "claude_prompts_codeblock_6"
-    },
-    {
-      "label": "\ud83e\udde0 AllDev GPT \u2013 Dev Fullstack + DevOps + QA Aut\u00f4nomo",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L1",
-      "community": 33,
-      "norm_label": "\ud83e\udde0 alldev gpt \u2013 dev fullstack + devops + qa autonomo",
-      "id": "alldev_readme_alldev_gpt_dev_fullstack_devops_qa_aut_nomo"
-    },
-    {
-      "label": "\ud83d\ude80 Como usar este reposit\u00f3rio com ChatGPT",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L19",
-      "community": 33,
-      "norm_label": "\ud83d\ude80 como usar este repositorio com chatgpt",
-      "id": "alldev_readme_como_usar_este_reposit_rio_com_chatgpt"
-    },
-    {
-      "label": "\ud83d\udc64 Sobre este reposit\u00f3rio",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L62",
-      "community": 33,
-      "norm_label": "\ud83d\udc64 sobre este repositorio",
-      "id": "alldev_readme_sobre_este_reposit_rio"
     }
   ],
   "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "manifest",
+      "target": "alldev_manifest_instructions"
+    },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
@@ -1754,11 +1719,11 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "manifest.json",
-      "source_location": "L4",
+      "source_location": "L9",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "manifest",
-      "target": "alldev_manifest_instructions"
+      "source": "manifest_api",
+      "target": "alldev_manifest_api_type"
     },
     {
       "relation": "contains",
@@ -1778,7 +1743,7 @@
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "manifest_api",
-      "target": "alldev_manifest_api_type"
+      "target": "manifest_api_type"
     },
     {
       "relation": "contains",
@@ -1789,26 +1754,6 @@
       "confidence_score": 1.0,
       "source": "manifest_api",
       "target": "manifest_api_url"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "manifest.json",
-      "source_location": "L9",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "manifest_api",
-      "target": "manifest_api_type"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "manifest.json",
-      "source_location": "L13",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "manifest_api_auth",
-      "target": "manifest_auth_authorizationurl"
     },
     {
       "relation": "contains",
@@ -1829,6 +1774,16 @@
       "confidence_score": 1.0,
       "source": "manifest_api_auth",
       "target": "alldev_manifest_auth_type"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "manifest_api_auth",
+      "target": "manifest_auth_authorizationurl"
     },
     {
       "relation": "contains",
@@ -2774,51 +2729,11 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme",
-      "target": "alldev_readme_alldev_gpt_dev_fullstack_devops_qa_aut_nomo"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
       "source_location": "L19",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "readme_alldev_gpt_dev_fullstack_devops_qa_aut\u00f4nomo",
       "target": "readme_como_usar_este_reposit\u00f3rio_com_chatgpt"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L77",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme_alldev_gpt_dev_fullstack_devops_qa_aut\u00f4nomo",
-      "target": "readme_contato"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L7",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme_alldev_gpt_dev_fullstack_devops_qa_aut\u00f4nomo",
-      "target": "alldev_readme_o_que_est\u00e1_aqui"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L69",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme_alldev_gpt_dev_fullstack_devops_qa_aut\u00f4nomo",
-      "target": "alldev_readme_seguran\u00e7a"
     },
     {
       "relation": "contains",
@@ -2834,111 +2749,61 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L7",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme_alldev_gpt_dev_fullstack_devops_qa_aut\u00f4nomo",
-      "target": "readme_o_que_est\u00e1_aqui"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L69",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme_alldev_gpt_dev_fullstack_devops_qa_aut\u00f4nomo",
-      "target": "readme_seguran\u00e7a"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L7",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "alldev_readme_alldev_gpt_dev_fullstack_devops_qa_aut_nomo",
-      "target": "readme_o_que_est\u00e1_aqui"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L21",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme_como_usar_este_reposit\u00f3rio_com_chatgpt",
-      "target": "readme_1_ative_o_github_pages"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L31",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme_como_usar_este_reposit\u00f3rio_com_chatgpt",
-      "target": "readme_2_crie_o_gpt_em_chat_openai_com_gpts_editor_https_chat_openai_com_gpts_editor"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L45",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme_como_usar_este_reposit\u00f3rio_com_chatgpt",
-      "target": "readme_3_o_gpt_pode"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L21",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "alldev_readme_como_usar_este_reposit_rio_com_chatgpt",
-      "target": "readme_1_ative_o_github_pages"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L31",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "alldev_readme_como_usar_este_reposit_rio_com_chatgpt",
-      "target": "readme_2_crie_o_gpt_em_chat_openai_com_gpts_editor_https_chat_openai_com_gpts_editor"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L45",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "alldev_readme_como_usar_este_reposit_rio_com_chatgpt",
-      "target": "readme_3_o_gpt_pode"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L69",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "alldev_readme_alldev_gpt_dev_fullstack_devops_qa_aut_nomo",
-      "target": "readme_seguran\u00e7a"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
       "source_location": "L77",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "alldev_readme_alldev_gpt_dev_fullstack_devops_qa_aut_nomo",
+      "source": "readme_alldev_gpt_dev_fullstack_devops_qa_aut\u00f4nomo",
       "target": "readme_contato"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "readme_alldev_gpt_dev_fullstack_devops_qa_aut\u00f4nomo",
+      "target": "readme_o_que_est\u00e1_aqui"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L69",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "readme_alldev_gpt_dev_fullstack_devops_qa_aut\u00f4nomo",
+      "target": "readme_seguran\u00e7a"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "readme_como_usar_este_reposit\u00f3rio_com_chatgpt",
+      "target": "readme_1_ative_o_github_pages"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "readme_como_usar_este_reposit\u00f3rio_com_chatgpt",
+      "target": "readme_2_crie_o_gpt_em_chat_openai_com_gpts_editor_https_chat_openai_com_gpts_editor"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L45",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "readme_como_usar_este_reposit\u00f3rio_com_chatgpt",
+      "target": "readme_3_o_gpt_pode"
     },
     {
       "relation": "contains",
@@ -3109,28 +2974,8 @@
       "confidence_score": 1.0,
       "source": "alldev_dependencies_map_auth_google",
       "target": "alldev_dependencies_map_auth_google_components"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L19",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "alldev_readme_alldev_gpt_dev_fullstack_devops_qa_aut_nomo",
-      "target": "alldev_readme_como_usar_este_reposit_rio_com_chatgpt"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L62",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "alldev_readme_alldev_gpt_dev_fullstack_devops_qa_aut_nomo",
-      "target": "alldev_readme_sobre_este_reposit_rio"
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "b273896f22f4d6f20b5fb892524a4aae58b16108"
+  "built_at_commit": "506bc29814b6440a08d4741a503a4b8b063c13bb"
 }
